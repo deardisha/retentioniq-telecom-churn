@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Trained model artifacts
+models/*.pkl
+models/*.joblib
+
+# Power BI temporary files
+dashboard/~$*
+
+# Environment variables and credentials
+.env
+kaggle.json
