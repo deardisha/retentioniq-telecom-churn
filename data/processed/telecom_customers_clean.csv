@@ -1,0 +1,1001 @@
+CustomerID,Age,Gender,Tenure,MonthlyCharges,ContractType,InternetService,TotalCharges,TechSupport,Churn,ChurnFlag,AgeDataQualityFlag,TenureDataQualityFlag,AgeGroup,TenureSegment,MonthlyChargeBand,AnnualRevenue,ActualMonthlyRevenueLost,ActualAnnualRevenueLost,CustomerLifecycleStage
+1,49,Male,4,88.35,Month-to-Month,Fiber Optic,353.4,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1060.1999999999998,88.35,1060.1999999999998,New
+2,43,Male,0,36.67,Month-to-Month,Fiber Optic,0.0,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,440.04,36.67,440.04,New
+3,51,Female,2,63.79,Month-to-Month,Fiber Optic,127.58,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,765.48,63.79,765.48,New
+4,60,Female,8,102.34,One-Year,DSL,818.72,Yes,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Premium,1228.08,102.34,1228.08,Developing
+5,42,Male,32,69.01,Month-to-Month,No Internet,2208.32,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,828.1200000000001,69.01,828.1200000000001,Established
+6,42,Female,16,119.75,Two-Year,DSL,1916.0,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Premium,1437.0,119.75,1437.0,Developing
+7,60,Male,14,80.32,One-Year,No Internet,1124.48,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,High,963.8399999999999,80.32,963.8399999999999,Developing
+8,52,Female,6,58.9,One-Year,No Internet,353.4,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,706.8,58.9,706.8,New
+9,40,Female,53,49.81,Two-Year,Fiber Optic,2639.9300000000003,Yes,No,0,Expected Range,Expected Range,35-44,49-72 Months,Low,597.72,0.0,0.0,Loyal
+10,50,Female,10,61.55,Month-to-Month,Fiber Optic,615.5,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,738.5999999999999,61.55,738.5999999999999,Developing
+11,40,Female,1,63.53,Month-to-Month,Fiber Optic,63.53,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,762.36,63.53,762.36,New
+12,40,Female,19,36.18,One-Year,Fiber Optic,687.42,Yes,No,0,Expected Range,Expected Range,35-44,13-24 Months,Low,434.15999999999997,0.0,0.0,Developing
+13,47,Male,2,63.26,Two-Year,No Internet,126.52,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,759.12,63.26,759.12,New
+14,25,Female,8,71.78,One-Year,No Internet,574.24,No,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Moderate,861.36,71.78,861.36,Developing
+15,27,Male,14,95.05,Month-to-Month,Fiber Optic,1330.7,Yes,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,High,1140.6,95.05,1140.6,Developing
+16,39,Female,41,89.11,Two-Year,Fiber Optic,3653.51,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,High,1069.32,0.0,0.0,Established
+17,34,Female,13,93.79,Month-to-Month,No Internet,1219.27,No,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,High,1125.48,93.79,1125.48,Developing
+18,48,Female,24,30.75,Two-Year,No Internet,738.0,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Low,369.0,30.75,369.0,Developing
+19,35,Male,98,49.59,Two-Year,Fiber Optic,4859.820000000001,Yes,No,0,Expected Range,Expected Range,35-44,73+ Months,Low,595.08,0.0,0.0,Loyal
+20,30,Female,2,89.55,Month-to-Month,Fiber Optic,179.1,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,High,1074.6,89.55,1074.6,New
+21,59,Female,6,73.56,One-Year,DSL,441.36,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Moderate,882.72,73.56,882.72,New
+22,42,Female,10,30.48,Month-to-Month,No Internet,304.8,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,365.76,30.48,365.76,Developing
+23,45,Male,10,102.4,Month-to-Month,DSL,1024.0,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Premium,1228.8000000000002,102.4,1228.8000000000002,Developing
+24,30,Male,10,99.55,One-Year,Fiber Optic,995.5,Yes,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,High,1194.6,99.55,1194.6,Developing
+25,39,Male,47,79.36,One-Year,DSL,3729.92,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,High,952.3199999999999,0.0,0.0,Established
+26,46,Male,25,35.98,Two-Year,DSL,899.4999999999999,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,Low,431.76,0.0,0.0,Established
+27,33,Female,18,98.99,One-Year,Fiber Optic,1781.82,Yes,No,0,Expected Range,Expected Range,25-34,13-24 Months,High,1187.8799999999999,0.0,0.0,Developing
+28,48,Male,7,82.53,Month-to-Month,No Internet,577.71,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,990.36,82.53,990.36,Developing
+29,38,Female,34,100.38,Two-Year,DSL,3412.92,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1204.56,100.38,1204.56,Established
+30,42,Male,62,97.66,Two-Year,Fiber Optic,6054.92,Yes,No,0,Expected Range,Expected Range,35-44,49-72 Months,High,1171.92,0.0,0.0,Loyal
+31,38,Male,34,102.27,Month-to-Month,DSL,3477.18,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1227.24,102.27,1227.24,Established
+32,63,Female,0,76.62,Two-Year,DSL,0.0,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,High,919.44,76.62,919.44,New
+33,44,Female,20,42.63,Month-to-Month,Fiber Optic,852.6,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,511.56000000000006,42.63,511.56000000000006,Developing
+34,34,Female,1,90.4,Two-Year,Fiber Optic,90.4,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,High,1084.8000000000002,90.4,1084.8000000000002,New
+35,53,Female,5,85.84,Month-to-Month,DSL,429.2000000000001,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1030.08,85.84,1030.08,New
+36,32,Female,1,96.8,Month-to-Month,Fiber Optic,96.8,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,High,1161.6,96.8,1161.6,New
+37,47,Male,18,45.29,Month-to-Month,DSL,815.22,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Low,543.48,45.29,543.48,Developing
+38,25,Female,23,47.55,One-Year,Fiber Optic,1093.65,Yes,No,0,Expected Range,Expected Range,25-34,13-24 Months,Low,570.5999999999999,0.0,0.0,Developing
+39,31,Female,2,110.14,Month-to-Month,No Internet,220.28,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Premium,1321.68,110.14,1321.68,New
+40,46,Female,9,97.5,Month-to-Month,No Internet,877.5,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,1170.0,97.5,1170.0,Developing
+41,52,Male,12,111.74,One-Year,Fiber Optic,1340.88,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Premium,1340.8799999999999,111.74,1340.8799999999999,Developing
+42,46,Female,9,98.28,Two-Year,Fiber Optic,884.52,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,1179.3600000000001,98.28,1179.3600000000001,Developing
+43,43,Male,2,83.74,Month-to-Month,No Internet,167.48,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1004.8799999999999,83.74,1004.8799999999999,New
+44,41,Male,10,88.87,Month-to-Month,DSL,888.7,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,1066.44,88.87,1066.44,Developing
+45,30,Male,27,110.02,Month-to-Month,No Internet,2970.54,No,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,Premium,1320.24,110.02,1320.24,Established
+46,37,Male,1,82.09,Month-to-Month,No Internet,82.09,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,985.08,82.09,985.08,New
+47,40,Female,1,86.92,Two-Year,DSL,86.92,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1043.04,86.92,1043.04,New
+48,55,Female,8,44.08,Two-Year,DSL,352.64,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Low,528.96,44.08,528.96,Developing
+49,48,Female,56,72.65,One-Year,No Internet,4068.400000000001,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Moderate,871.8000000000001,72.65,871.8000000000001,Loyal
+50,27,Male,22,94.48,Month-to-Month,Fiber Optic,2078.56,Yes,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,High,1133.76,94.48,1133.76,Developing
+51,48,Male,22,54.38,One-Year,DSL,1196.36,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,Moderate,652.5600000000001,0.0,0.0,Developing
+52,41,Male,8,48.2,One-Year,DSL,385.6,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,578.4000000000001,48.2,578.4000000000001,Developing
+53,38,Female,18,58.24,Two-Year,Fiber Optic,1048.32,Yes,No,0,Expected Range,Expected Range,35-44,13-24 Months,Moderate,698.88,0.0,0.0,Developing
+54,51,Male,0,51.74,One-Year,Fiber Optic,0.0,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,620.88,51.74,620.88,New
+55,55,Female,20,49.34,One-Year,No Internet,986.8,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Low,592.08,49.34,592.08,Developing
+56,54,Female,48,68.24,One-Year,No Internet,3275.5199999999995,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Moderate,818.8799999999999,68.24,818.8799999999999,Established
+57,36,Male,18,111.71,Month-to-Month,DSL,2010.78,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Premium,1340.52,111.71,1340.52,Developing
+58,41,Female,41,75.64,Two-Year,Fiber Optic,3101.24,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,High,907.6800000000001,0.0,0.0,Established
+59,48,Female,25,46.91,One-Year,Fiber Optic,1172.75,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,562.92,46.91,562.92,Established
+60,54,Female,2,36.93,One-Year,Fiber Optic,73.86,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,443.15999999999997,36.93,443.15999999999997,New
+61,40,Female,46,92.65,Month-to-Month,DSL,4261.900000000001,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,High,1111.8000000000002,92.65,1111.8000000000002,Established
+62,43,Male,1,64.45,One-Year,No Internet,64.45,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,773.4000000000001,64.45,773.4000000000001,New
+63,33,Male,15,103.96,One-Year,No Internet,1559.4,No,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Premium,1247.52,103.96,1247.52,Developing
+64,33,Female,3,89.36,Month-to-Month,Fiber Optic,268.08,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,High,1072.32,89.36,1072.32,New
+65,53,Female,0,101.66,Month-to-Month,Fiber Optic,0.0,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1219.92,101.66,1219.92,New
+66,58,Male,10,54.48,One-Year,DSL,544.8,Yes,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Moderate,653.76,54.48,653.76,Developing
+67,44,Female,6,92.31,One-Year,Fiber Optic,553.86,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1107.72,92.31,1107.72,New
+68,55,Female,13,53.77,One-Year,Fiber Optic,699.01,Yes,No,0,Expected Range,Expected Range,55-64,13-24 Months,Moderate,645.24,0.0,0.0,Developing
+69,48,Female,17,114.52,Month-to-Month,Fiber Optic,1946.84,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1374.24,114.52,1374.24,Developing
+70,38,Male,0,87.27,One-Year,No Internet,0.0,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1047.24,87.27,1047.24,New
+71,48,Female,2,59.21,Month-to-Month,Fiber Optic,118.42,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,710.52,59.21,710.52,New
+72,60,Female,16,54.26,Month-to-Month,Fiber Optic,868.16,Yes,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Moderate,651.12,54.26,651.12,Developing
+73,44,Male,8,47.18,Month-to-Month,No Internet,377.44,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,566.16,47.18,566.16,Developing
+74,60,Male,26,92.52,Month-to-Month,DSL,2405.52,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,High,1110.24,92.52,1110.24,Established
+75,18,Female,21,49.68,Month-to-Month,Fiber Optic,1043.28,Yes,Yes,1,Expected Range,Expected Range,Under 25,13-24 Months,Low,596.16,49.68,596.16,Developing
+76,53,Male,37,83.58,Month-to-Month,Fiber Optic,3092.46,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,High,1002.96,83.58,1002.96,Established
+77,45,Female,23,53.82,Month-to-Month,Fiber Optic,1237.86,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Moderate,645.84,53.82,645.84,Developing
+78,42,Female,11,89.58,Month-to-Month,No Internet,985.38,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,1074.96,89.58,1074.96,Developing
+79,45,Male,22,103.34,One-Year,Fiber Optic,2273.48,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1240.08,103.34,1240.08,Developing
+80,25,Female,6,100.02,Month-to-Month,No Internet,600.12,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Premium,1200.24,100.02,1200.24,New
+81,42,Male,7,98.48,Month-to-Month,Fiber Optic,689.36,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,1181.76,98.48,1181.76,Developing
+82,48,Female,31,46.9,Two-Year,Fiber Optic,1453.9,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,562.8,46.9,562.8,Established
+83,59,Male,11,37.95,Month-to-Month,No Internet,417.4500000000001,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Low,455.40000000000003,37.95,455.40000000000003,Developing
+84,39,Female,32,92.91,One-Year,DSL,2973.12,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,High,1114.92,92.91,1114.92,Established
+85,36,Male,34,63.15,Month-to-Month,DSL,2147.1,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,757.8,63.15,757.8,Established
+86,39,Male,38,68.91,Month-to-Month,Fiber Optic,2618.58,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,826.92,68.91,826.92,Established
+87,54,Female,49,32.8,One-Year,DSL,1607.1999999999998,Yes,No,0,Expected Range,Expected Range,45-54,49-72 Months,Low,393.59999999999997,0.0,0.0,Loyal
+88,48,Male,11,53.36,One-Year,DSL,586.96,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,640.3199999999999,53.36,640.3199999999999,Developing
+89,39,Female,7,33.03,Two-Year,Fiber Optic,231.21,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,396.36,33.03,396.36,Developing
+90,50,Male,17,109.13,One-Year,Fiber Optic,1855.21,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1309.56,109.13,1309.56,Developing
+91,45,Female,9,51.91,Two-Year,Fiber Optic,467.18999999999994,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,622.92,51.91,622.92,Developing
+92,54,Male,18,80.16,Month-to-Month,No Internet,1442.88,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,961.92,80.16,961.92,Developing
+93,37,Female,24,33.51,Month-to-Month,Fiber Optic,804.24,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,402.12,33.51,402.12,Developing
+94,41,Male,23,90.02,Month-to-Month,No Internet,2070.46,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,1080.24,90.02,1080.24,Developing
+95,41,Male,9,59.07,Month-to-Month,DSL,531.63,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Moderate,708.84,59.07,708.84,Developing
+96,30,Male,3,110.81,One-Year,Fiber Optic,332.43,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Premium,1329.72,110.81,1329.72,New
+97,47,Male,11,109.93,One-Year,No Internet,1209.23,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Premium,1319.16,109.93,1319.16,Developing
+98,47,Female,3,59.28,Month-to-Month,Fiber Optic,177.84,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,711.36,59.28,711.36,New
+99,45,Male,44,111.09,Two-Year,No Internet,4887.96,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1333.08,111.09,1333.08,Established
+100,42,Female,8,119.65,Two-Year,Fiber Optic,957.2,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Premium,1435.8000000000002,119.65,1435.8000000000002,Developing
+101,30,Male,3,104.29,Month-to-Month,DSL,312.87,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Premium,1251.48,104.29,1251.48,New
+102,40,Male,0,106.04,Month-to-Month,Fiber Optic,0.0,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1272.48,106.04,1272.48,New
+103,41,Female,20,52.41,Month-to-Month,Fiber Optic,1048.1999999999998,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,628.92,52.41,628.92,Developing
+104,36,Female,20,81.9,Month-to-Month,No Internet,1638.0,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,982.8000000000001,81.9,982.8000000000001,Developing
+105,43,Male,8,36.05,Month-to-Month,DSL,288.4,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,432.59999999999997,36.05,432.59999999999997,Developing
+106,49,Male,1,38.54,One-Year,No Internet,38.54,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,462.48,38.54,462.48,New
+107,63,Male,10,119.9,Month-to-Month,No Internet,1199.0,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Premium,1438.8000000000002,119.9,1438.8000000000002,Developing
+108,46,Female,7,59.4,Month-to-Month,DSL,415.8,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,712.8,59.4,712.8,Developing
+109,47,Female,22,97.34,Two-Year,Fiber Optic,2141.48,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,High,1168.08,0.0,0.0,Developing
+110,44,Male,18,102.6,One-Year,No Internet,1846.8,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Premium,1231.1999999999998,102.6,1231.1999999999998,Developing
+111,25,Female,9,107.22,Two-Year,No Internet,964.98,No,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Premium,1286.6399999999999,107.22,1286.6399999999999,Developing
+112,44,Female,4,119.79,Month-to-Month,Fiber Optic,479.16,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1437.48,119.79,1437.48,New
+113,45,Female,88,51.73,Month-to-Month,Fiber Optic,4552.24,Yes,Yes,1,Expected Range,Expected Range,45-54,73+ Months,Moderate,620.76,51.73,620.76,Loyal
+114,69,Female,12,33.63,One-Year,Fiber Optic,403.56000000000006,No,Yes,1,Expected Range,Expected Range,65+,7-12 Months,Low,403.56000000000006,33.63,403.56000000000006,Developing
+115,43,Male,23,67.01,Month-to-Month,Fiber Optic,1541.23,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,804.1200000000001,67.01,804.1200000000001,Developing
+116,48,Male,3,41.71,Month-to-Month,DSL,125.13,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,500.52,41.71,500.52,New
+117,44,Male,13,32.02,One-Year,No Internet,416.2600000000001,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,384.24,32.02,384.24,Developing
+118,33,Male,0,62.44,One-Year,DSL,0.0,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,749.28,62.44,749.28,New
+119,56,Female,14,100.54,Month-to-Month,DSL,1407.5600000000002,Yes,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Premium,1206.48,100.54,1206.48,Developing
+120,52,Female,66,80.96,Month-to-Month,Fiber Optic,5343.36,Yes,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,High,971.52,80.96,971.52,Loyal
+121,52,Male,9,58.15,Month-to-Month,Fiber Optic,523.35,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,697.8,58.15,697.8,Developing
+122,35,Male,0,88.89,Month-to-Month,Fiber Optic,0.0,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1066.68,88.89,1066.68,New
+123,59,Male,0,50.88,Month-to-Month,Fiber Optic,0.0,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Moderate,610.5600000000001,50.88,610.5600000000001,New
+124,30,Female,9,31.29,Month-to-Month,Fiber Optic,281.61,Yes,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Low,375.48,31.29,375.48,Developing
+125,50,Male,3,98.79,Month-to-Month,DSL,296.37,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1185.48,98.79,1185.48,New
+126,66,Female,0,86.14,Two-Year,Fiber Optic,0.0,Yes,Yes,1,Expected Range,Expected Range,65+,0-6 Months,High,1033.68,86.14,1033.68,New
+127,35,Male,28,98.61,One-Year,No Internet,2761.08,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,High,1183.32,98.61,1183.32,Established
+128,39,Male,12,33.5,One-Year,Fiber Optic,402.0,Yes,No,0,Expected Range,Expected Range,35-44,7-12 Months,Low,402.0,0.0,0.0,Developing
+129,45,Female,6,105.34,Month-to-Month,Fiber Optic,632.04,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1264.08,105.34,1264.08,New
+130,39,Female,46,85.76,Month-to-Month,Fiber Optic,3944.96,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,High,1029.1200000000001,85.76,1029.1200000000001,Established
+131,29,Male,2,80.71,Month-to-Month,No Internet,161.42,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,High,968.52,80.71,968.52,New
+132,45,Female,62,86.22,Month-to-Month,DSL,5345.64,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,High,1034.6399999999999,86.22,1034.6399999999999,Loyal
+133,34,Female,7,107.8,Month-to-Month,Fiber Optic,754.6,Yes,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Premium,1293.6,107.8,1293.6,Developing
+134,49,Female,43,82.82,One-Year,No Internet,3561.26,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,High,993.8399999999999,82.82,993.8399999999999,Established
+135,35,Male,18,82.29,One-Year,Fiber Optic,1481.22,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,987.48,82.29,987.48,Developing
+136,60,Female,35,119.16,One-Year,DSL,4170.599999999999,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,Premium,1429.92,119.16,1429.92,Established
+137,37,Female,82,98.11,Month-to-Month,Fiber Optic,8045.02,No,Yes,1,Expected Range,Expected Range,35-44,73+ Months,High,1177.32,98.11,1177.32,Loyal
+138,41,Female,6,69.81,Two-Year,DSL,418.86,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,837.72,69.81,837.72,New
+139,53,Male,64,93.67,Month-to-Month,Fiber Optic,5994.88,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,High,1124.04,93.67,1124.04,Loyal
+140,32,Male,9,65.03,Month-to-Month,No Internet,585.27,No,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Moderate,780.36,65.03,780.36,Developing
+141,47,Male,9,50.6,Month-to-Month,DSL,455.4,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,607.2,50.6,607.2,Developing
+142,58,Female,8,83.72,One-Year,No Internet,669.76,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,High,1004.64,83.72,1004.64,Developing
+143,28,Male,15,113.54,Two-Year,DSL,1703.1,Yes,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Premium,1362.48,113.54,1362.48,Developing
+144,46,Female,3,113.62,Month-to-Month,No Internet,340.86,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1363.44,113.62,1363.44,New
+145,47,Female,16,60.77,Two-Year,Fiber Optic,972.32,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,Moderate,729.24,0.0,0.0,Developing
+146,52,Male,15,77.49,Two-Year,DSL,1162.35,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,High,929.8799999999999,0.0,0.0,Developing
+147,32,Female,28,49.05,Month-to-Month,DSL,1373.4,No,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,Low,588.5999999999999,49.05,588.5999999999999,Established
+148,31,Male,35,119.61,Month-to-Month,No Internet,4186.35,No,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,Premium,1435.32,119.61,1435.32,Established
+149,50,Female,11,118.3,Month-to-Month,DSL,1301.3,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Premium,1419.6,118.3,1419.6,Developing
+150,47,Male,7,88.46,Two-Year,DSL,619.2199999999999,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,1061.52,88.46,1061.52,Developing
+151,47,Female,6,102.4,Month-to-Month,Fiber Optic,614.4000000000001,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1228.8000000000002,102.4,1228.8000000000002,New
+152,48,Female,4,94.36,One-Year,Fiber Optic,377.44,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1132.32,94.36,1132.32,New
+153,38,Female,1,83.38,Month-to-Month,Fiber Optic,83.38,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1000.56,83.38,1000.56,New
+154,47,Female,8,34.8,One-Year,DSL,278.4,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Low,417.59999999999997,34.8,417.59999999999997,Developing
+155,47,Female,6,70.93,Month-to-Month,DSL,425.58,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,851.1600000000001,70.93,851.1600000000001,New
+156,37,Female,67,90.73,One-Year,DSL,6078.91,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,High,1088.76,90.73,1088.76,Loyal
+157,63,Female,16,90.98,Two-Year,DSL,1455.68,Yes,No,0,Expected Range,Expected Range,55-64,13-24 Months,High,1091.76,0.0,0.0,Developing
+158,49,Female,8,63.58,Two-Year,Fiber Optic,508.64,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,762.96,63.58,762.96,Developing
+159,33,Male,17,114.75,Two-Year,No Internet,1950.75,No,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Premium,1377.0,114.75,1377.0,Developing
+160,51,Female,2,45.06,Month-to-Month,DSL,90.12,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,540.72,45.06,540.72,New
+161,35,Female,11,75.03,One-Year,Fiber Optic,825.33,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,900.36,75.03,900.36,Developing
+162,52,Female,19,92.18,Month-to-Month,Fiber Optic,1751.42,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,1106.16,92.18,1106.16,Developing
+163,56,Male,13,92.74,Month-to-Month,No Internet,1205.62,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,High,1112.8799999999999,92.74,1112.8799999999999,Developing
+164,36,Female,10,88.38,One-Year,No Internet,883.8,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,1060.56,88.38,1060.56,Developing
+165,54,Male,101,54.78,Month-to-Month,No Internet,5532.78,No,Yes,1,Expected Range,Expected Range,45-54,73+ Months,Moderate,657.36,54.78,657.36,Loyal
+166,49,Female,42,44.06,One-Year,DSL,1850.52,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,Low,528.72,0.0,0.0,Established
+167,53,Male,19,87.23,Two-Year,DSL,1657.37,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,1046.76,87.23,1046.76,Developing
+168,63,Female,16,83.94,Month-to-Month,Fiber Optic,1343.04,Yes,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,High,1007.28,83.94,1007.28,Developing
+169,42,Female,19,46.14,One-Year,DSL,876.66,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,553.6800000000001,46.14,553.6800000000001,Developing
+170,37,Male,4,93.46,Month-to-Month,Fiber Optic,373.84,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1121.52,93.46,1121.52,New
+171,36,Female,10,70.97,Month-to-Month,No Internet,709.7,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Moderate,851.64,70.97,851.64,Developing
+172,36,Male,0,90.1,Month-to-Month,No Internet,0.0,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1081.1999999999998,90.1,1081.1999999999998,New
+173,44,Female,12,105.36,Two-Year,No Internet,1264.32,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Premium,1264.32,105.36,1264.32,Developing
+174,48,Female,15,45.28,Two-Year,Fiber Optic,679.2,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Low,543.36,45.28,543.36,Developing
+175,47,Female,5,31.72,Two-Year,Fiber Optic,158.6,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,380.64,31.72,380.64,New
+176,53,Female,66,100.12,Two-Year,Fiber Optic,6607.92,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Premium,1201.44,100.12,1201.44,Loyal
+177,45,Female,48,84.87,Month-to-Month,DSL,4073.76,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,High,1018.44,84.87,1018.44,Established
+178,59,Male,25,92.97,Month-to-Month,No Internet,2324.25,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,High,1115.6399999999999,92.97,1115.6399999999999,Established
+179,42,Male,15,105.43,One-Year,DSL,1581.45,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Premium,1265.16,105.43,1265.16,Developing
+180,72,Female,40,102.25,Month-to-Month,Fiber Optic,4090.0,No,Yes,1,Expected Range,Expected Range,65+,25-48 Months,Premium,1227.0,102.25,1227.0,Established
+181,51,Female,2,116.48,Month-to-Month,Fiber Optic,232.96,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1397.76,116.48,1397.76,New
+182,36,Female,31,78.23,Month-to-Month,Fiber Optic,2425.13,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,High,938.76,78.23,938.76,Established
+183,34,Female,2,73.96,One-Year,No Internet,147.92,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,887.52,73.96,887.52,New
+184,49,Male,31,66.17,One-Year,Fiber Optic,2051.27,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,Moderate,794.04,0.0,0.0,Established
+185,42,Female,6,43.83,Month-to-Month,No Internet,262.98,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,525.96,43.83,525.96,New
+186,52,Male,41,81.53,Month-to-Month,DSL,3342.73,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,High,978.36,81.53,978.36,Established
+187,49,Female,57,54.93,One-Year,Fiber Optic,3131.01,Yes,No,0,Expected Range,Expected Range,45-54,49-72 Months,Moderate,659.16,0.0,0.0,Loyal
+188,44,Male,3,112.92,One-Year,No Internet,338.76,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1355.04,112.92,1355.04,New
+189,36,Male,12,82.49,Month-to-Month,Fiber Optic,989.88,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,989.8799999999999,82.49,989.8799999999999,Developing
+190,29,Male,79,83.36,One-Year,No Internet,6585.44,No,Yes,1,Expected Range,Expected Range,25-34,73+ Months,High,1000.3199999999999,83.36,1000.3199999999999,Loyal
+191,40,Male,13,61.94,Month-to-Month,DSL,805.22,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,743.28,61.94,743.28,Developing
+192,53,Female,39,34.68,Month-to-Month,Fiber Optic,1352.52,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,416.15999999999997,34.68,416.15999999999997,Established
+193,47,Male,17,32.86,One-Year,Fiber Optic,558.62,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,Low,394.32,0.0,0.0,Developing
+194,32,Male,9,68.1,One-Year,No Internet,612.9,No,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Moderate,817.1999999999999,68.1,817.1999999999999,Developing
+195,46,Male,6,37.61,Month-to-Month,DSL,225.66,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,451.32,37.61,451.32,New
+196,48,Male,4,84.62,One-Year,No Internet,338.48,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1015.44,84.62,1015.44,New
+197,36,Male,28,109.29,One-Year,Fiber Optic,3060.1200000000003,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1311.48,109.29,1311.48,Established
+198,46,Male,9,109.46,One-Year,DSL,985.14,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Premium,1313.52,109.46,1313.52,Developing
+199,45,Female,14,89.31,One-Year,Fiber Optic,1250.34,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,1071.72,89.31,1071.72,Developing
+200,33,Female,13,49.01,One-Year,Fiber Optic,637.13,Yes,No,0,Expected Range,Expected Range,25-34,13-24 Months,Low,588.12,0.0,0.0,Developing
+201,48,Female,17,107.67,Month-to-Month,Fiber Optic,1830.39,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1292.04,107.67,1292.04,Developing
+202,50,Male,40,109.75,Month-to-Month,No Internet,4390.0,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1317.0,109.75,1317.0,Established
+203,55,Male,78,47.7,Month-to-Month,Fiber Optic,3720.6,Yes,Yes,1,Expected Range,Expected Range,55-64,73+ Months,Low,572.4000000000001,47.7,572.4000000000001,Loyal
+204,55,Female,10,96.37,Month-to-Month,Fiber Optic,963.7,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,High,1156.44,96.37,1156.44,Developing
+205,31,Female,35,55.79,One-Year,Fiber Optic,1952.65,Yes,No,0,Expected Range,Expected Range,25-34,25-48 Months,Moderate,669.48,0.0,0.0,Established
+206,35,Male,28,102.24,One-Year,DSL,2862.72,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1226.8799999999999,102.24,1226.8799999999999,Established
+207,50,Male,17,119.75,Month-to-Month,DSL,2035.75,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1437.0,119.75,1437.0,Developing
+208,50,Male,62,32.7,Month-to-Month,Fiber Optic,2027.4,Yes,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Low,392.40000000000003,32.7,392.40000000000003,Loyal
+209,50,Male,4,110.76,Month-to-Month,Fiber Optic,443.04,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1329.1200000000001,110.76,1329.1200000000001,New
+210,83,Male,2,86.04,Month-to-Month,DSL,172.08,No,Yes,1,Review,Expected Range,65+,0-6 Months,High,1032.48,86.04,1032.48,New
+211,50,Female,38,117.6,One-Year,Fiber Optic,4468.8,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1411.1999999999998,117.6,1411.1999999999998,Established
+212,56,Female,11,71.85,Month-to-Month,Fiber Optic,790.3499999999999,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Moderate,862.1999999999999,71.85,862.1999999999999,Developing
+213,54,Female,37,106.26,One-Year,DSL,3931.62,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1275.1200000000001,106.26,1275.1200000000001,Established
+214,51,Female,44,35.62,Two-Year,Fiber Optic,1567.28,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,Low,427.43999999999994,0.0,0.0,Established
+215,41,Female,1,60.18,Month-to-Month,DSL,60.18,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,722.16,60.18,722.16,New
+216,52,Female,42,36.03,Month-to-Month,No Internet,1513.26,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,432.36,36.03,432.36,Established
+217,37,Female,11,117.78,Month-to-Month,No Internet,1295.58,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Premium,1413.3600000000001,117.78,1413.3600000000001,Developing
+218,42,Male,14,103.53,One-Year,No Internet,1449.42,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Premium,1242.3600000000001,103.53,1242.3600000000001,Developing
+219,40,Male,19,106.73,One-Year,DSL,2027.87,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Premium,1280.76,106.73,1280.76,Developing
+220,45,Male,52,114.42,Month-to-Month,No Internet,5949.84,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Premium,1373.04,114.42,1373.04,Loyal
+221,68,Female,0,37.66,One-Year,No Internet,0.0,No,Yes,1,Expected Range,Expected Range,65+,0-6 Months,Low,451.91999999999996,37.66,451.91999999999996,New
+222,26,Female,12,64.7,Two-Year,No Internet,776.4000000000001,No,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Moderate,776.4000000000001,64.7,776.4000000000001,Developing
+223,51,Male,23,36.39,Month-to-Month,DSL,836.97,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Low,436.68,36.39,436.68,Developing
+224,28,Female,25,48.97,Month-to-Month,Fiber Optic,1224.25,Yes,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,Low,587.64,48.97,587.64,Established
+225,40,Male,23,50.64,Two-Year,No Internet,1164.72,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,607.6800000000001,50.64,607.6800000000001,Developing
+226,55,Female,2,72.22,One-Year,Fiber Optic,144.44,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Moderate,866.64,72.22,866.64,New
+227,45,Male,7,54.17,Two-Year,Fiber Optic,379.19,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,650.04,54.17,650.04,Developing
+228,34,Male,8,39.09,One-Year,Fiber Optic,312.72,Yes,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Low,469.08000000000004,39.09,469.08000000000004,Developing
+229,37,Female,32,45.07,Two-Year,Fiber Optic,1442.24,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,Low,540.84,0.0,0.0,Established
+230,51,Male,6,43.25,Month-to-Month,DSL,259.5,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,519.0,43.25,519.0,New
+231,37,Male,4,117.58,One-Year,Fiber Optic,470.32,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1410.96,117.58,1410.96,New
+232,47,Male,63,98.34,Two-Year,DSL,6195.42,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,High,1180.08,98.34,1180.08,Loyal
+233,45,Female,0,117.1,One-Year,Fiber Optic,0.0,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1405.1999999999998,117.1,1405.1999999999998,New
+234,38,Female,122,69.58,Month-to-Month,DSL,8488.76,No,Yes,1,Expected Range,Review,35-44,73+ Months,Moderate,834.96,69.58,834.96,Loyal
+235,66,Male,22,55.05,Month-to-Month,Fiber Optic,1211.1,Yes,Yes,1,Expected Range,Expected Range,65+,13-24 Months,Moderate,660.5999999999999,55.05,660.5999999999999,Developing
+236,51,Female,35,101.85,Month-to-Month,DSL,3564.75,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1222.1999999999998,101.85,1222.1999999999998,Established
+237,24,Female,6,59.36,Month-to-Month,Fiber Optic,356.15999999999997,No,Yes,1,Expected Range,Expected Range,Under 25,0-6 Months,Moderate,712.3199999999999,59.36,712.3199999999999,New
+238,46,Male,0,56.94,Month-to-Month,No Internet,0.0,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,683.28,56.94,683.28,New
+239,38,Male,26,50.93,One-Year,DSL,1324.18,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,Moderate,611.16,0.0,0.0,Established
+240,53,Male,35,41.67,One-Year,DSL,1458.45,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,Low,500.04,0.0,0.0,Established
+241,37,Male,26,53.08,Month-to-Month,DSL,1380.08,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,636.96,53.08,636.96,Established
+242,43,Female,3,61.98,One-Year,No Internet,185.94,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,743.76,61.98,743.76,New
+243,50,Male,28,90.66,Month-to-Month,Fiber Optic,2538.48,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,High,1087.92,90.66,1087.92,Established
+244,53,Female,29,35.63,Month-to-Month,Fiber Optic,1033.27,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,427.56000000000006,35.63,427.56000000000006,Established
+245,32,Female,21,48.95,Month-to-Month,DSL,1027.95,Yes,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Low,587.4000000000001,48.95,587.4000000000001,Developing
+246,41,Male,29,102.81,One-Year,Fiber Optic,2981.49,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1233.72,102.81,1233.72,Established
+247,40,Female,37,43.22,Month-to-Month,No Internet,1599.14,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Low,518.64,43.22,518.64,Established
+248,38,Male,19,60.84,Month-to-Month,No Internet,1155.96,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,730.08,60.84,730.08,Developing
+249,62,Female,1,107.82,Month-to-Month,Fiber Optic,107.82,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Premium,1293.84,107.82,1293.84,New
+250,49,Female,13,43.94,Two-Year,DSL,571.22,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,Low,527.28,0.0,0.0,Developing
+251,32,Female,1,37.45,Month-to-Month,DSL,37.45,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Low,449.40000000000003,37.45,449.40000000000003,New
+252,54,Female,10,73.61,One-Year,DSL,736.1,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,883.3199999999999,73.61,883.3199999999999,Developing
+253,66,Male,10,57.22,One-Year,DSL,572.2,Yes,Yes,1,Expected Range,Expected Range,65+,7-12 Months,Moderate,686.64,57.22,686.64,Developing
+254,55,Female,1,80.71,One-Year,DSL,80.71,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,High,968.52,80.71,968.52,New
+255,29,Female,8,102.34,Two-Year,DSL,818.72,Yes,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Premium,1228.08,102.34,1228.08,Developing
+256,40,Female,2,42.34,Month-to-Month,Fiber Optic,84.68,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,508.08000000000004,42.34,508.08000000000004,New
+257,57,Female,33,82.26,Month-to-Month,No Internet,2714.5800000000004,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,High,987.1200000000001,82.26,987.1200000000001,Established
+258,37,Female,59,75.5,Two-Year,Fiber Optic,4454.5,Yes,No,0,Expected Range,Expected Range,35-44,49-72 Months,High,906.0,0.0,0.0,Loyal
+259,49,Male,1,42.97,Month-to-Month,No Internet,42.97,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,515.64,42.97,515.64,New
+260,52,Male,62,86.16,One-Year,No Internet,5341.92,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,High,1033.92,86.16,1033.92,Loyal
+261,35,Female,14,54.63,One-Year,DSL,764.82,Yes,No,0,Expected Range,Expected Range,35-44,13-24 Months,Moderate,655.5600000000001,0.0,0.0,Developing
+262,44,Male,7,73.91,One-Year,No Internet,517.37,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Moderate,886.92,73.91,886.92,Developing
+263,12,Female,1,37.4,Two-Year,DSL,37.4,No,Yes,1,Review,Expected Range,Under 25,0-6 Months,Low,448.79999999999995,37.4,448.79999999999995,New
+264,34,Female,13,71.36,Two-Year,Fiber Optic,927.68,No,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Moderate,856.3199999999999,71.36,856.3199999999999,Developing
+265,42,Male,31,57.58,One-Year,Fiber Optic,1784.98,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,Moderate,690.96,0.0,0.0,Established
+266,32,Male,24,104.01,Month-to-Month,No Internet,2496.24,No,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Premium,1248.1200000000001,104.01,1248.1200000000001,Developing
+267,61,Female,1,35.13,Two-Year,DSL,35.13,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Low,421.56000000000006,35.13,421.56000000000006,New
+268,30,Male,1,67.67,Month-to-Month,DSL,67.67,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,812.04,67.67,812.04,New
+269,40,Female,10,71.26,Month-to-Month,No Internet,712.6,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Moderate,855.1200000000001,71.26,855.1200000000001,Developing
+270,46,Male,6,95.25,Two-Year,DSL,571.5,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1143.0,95.25,1143.0,New
+271,59,Female,5,81.69,Month-to-Month,Fiber Optic,408.45,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,High,980.28,81.69,980.28,New
+272,30,Male,6,90.05,Month-to-Month,No Internet,540.3,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,High,1080.6,90.05,1080.6,New
+273,56,Female,32,99.93,Month-to-Month,No Internet,3197.76,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,High,1199.16,99.93,1199.16,Established
+274,45,Male,52,107.6,Two-Year,No Internet,5595.2,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Premium,1291.1999999999998,107.6,1291.1999999999998,Loyal
+275,35,Female,10,58.25,One-Year,No Internet,582.5,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Moderate,699.0,58.25,699.0,Developing
+276,49,Male,47,78.42,One-Year,DSL,3685.74,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,High,941.04,0.0,0.0,Established
+277,46,Female,7,105.61,Month-to-Month,No Internet,739.27,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Premium,1267.32,105.61,1267.32,Developing
+278,38,Female,12,119.05,One-Year,Fiber Optic,1428.6,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Premium,1428.6,119.05,1428.6,Developing
+279,45,Male,5,110.06,One-Year,Fiber Optic,550.3,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1320.72,110.06,1320.72,New
+280,41,Male,20,63.43,Month-to-Month,DSL,1268.6,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,761.16,63.43,761.16,Developing
+281,46,Male,77,47.56,Month-to-Month,Fiber Optic,3662.12,No,Yes,1,Expected Range,Expected Range,45-54,73+ Months,Low,570.72,47.56,570.72,Loyal
+282,51,Female,18,74.05,Month-to-Month,No Internet,1332.9,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Moderate,888.5999999999999,74.05,888.5999999999999,Developing
+283,60,Female,8,96.75,Two-Year,No Internet,774.0,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,High,1161.0,96.75,1161.0,Developing
+284,32,Female,20,74.33,One-Year,Fiber Optic,1486.6,Yes,No,0,Expected Range,Expected Range,25-34,13-24 Months,Moderate,891.96,0.0,0.0,Developing
+285,66,Male,2,73.49,Two-Year,DSL,146.98,No,Yes,1,Expected Range,Expected Range,65+,0-6 Months,Moderate,881.8799999999999,73.49,881.8799999999999,New
+286,25,Male,43,105.44,Month-to-Month,Fiber Optic,4533.92,No,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,Premium,1265.28,105.44,1265.28,Established
+287,43,Female,13,62.53,One-Year,No Internet,812.89,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,750.36,62.53,750.36,Developing
+288,50,Female,11,107.38,One-Year,No Internet,1181.1799999999998,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Premium,1288.56,107.38,1288.56,Developing
+289,47,Female,17,66.61,One-Year,Fiber Optic,1132.37,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,Moderate,799.3199999999999,0.0,0.0,Developing
+290,38,Male,19,59.54,Two-Year,DSL,1131.26,Yes,No,0,Expected Range,Expected Range,35-44,13-24 Months,Moderate,714.48,0.0,0.0,Developing
+291,42,Female,1,70.86,Month-to-Month,Fiber Optic,70.86,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,850.3199999999999,70.86,850.3199999999999,New
+292,40,Male,22,98.62,Month-to-Month,Fiber Optic,2169.6400000000003,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,1183.44,98.62,1183.44,Developing
+293,39,Male,5,41.34,One-Year,No Internet,206.7,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,496.08000000000004,41.34,496.08000000000004,New
+294,53,Female,25,47.68,One-Year,Fiber Optic,1192.0,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,572.16,47.68,572.16,Established
+295,48,Female,34,115.63,One-Year,Fiber Optic,3931.42,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1387.56,115.63,1387.56,Established
+296,38,Female,32,45.79,Month-to-Month,Fiber Optic,1465.28,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Low,549.48,45.79,549.48,Established
+297,53,Male,16,81.1,One-Year,DSL,1297.6,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,High,973.1999999999999,0.0,0.0,Developing
+298,48,Male,14,82.14,Month-to-Month,No Internet,1149.96,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,985.6800000000001,82.14,985.6800000000001,Developing
+299,53,Female,3,74.07,Month-to-Month,Fiber Optic,222.21,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,888.8399999999999,74.07,888.8399999999999,New
+300,51,Female,29,88.03,One-Year,Fiber Optic,2552.87,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,High,1056.3600000000001,0.0,0.0,Established
+301,36,Male,6,50.68,One-Year,Fiber Optic,304.08,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,608.16,50.68,608.16,New
+302,39,Male,13,79.74,Month-to-Month,Fiber Optic,1036.62,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,956.8799999999999,79.74,956.8799999999999,Developing
+303,52,Male,6,63.5,Month-to-Month,Fiber Optic,381.0,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,762.0,63.5,762.0,New
+304,51,Female,2,89.55,Month-to-Month,No Internet,179.1,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1074.6,89.55,1074.6,New
+305,44,Male,19,42.71,Month-to-Month,DSL,811.49,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,512.52,42.71,512.52,Developing
+306,46,Male,1,81.38,One-Year,Fiber Optic,81.38,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,976.56,81.38,976.56,New
+307,57,Male,27,46.67,Two-Year,DSL,1260.09,Yes,No,0,Expected Range,Expected Range,55-64,25-48 Months,Low,560.04,0.0,0.0,Established
+308,39,Male,7,55.08,Month-to-Month,Fiber Optic,385.56,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Moderate,660.96,55.08,660.96,Developing
+309,50,Male,0,49.68,One-Year,DSL,0.0,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,596.16,49.68,596.16,New
+310,42,Female,14,46.46,Two-Year,Fiber Optic,650.44,Yes,No,0,Expected Range,Expected Range,35-44,13-24 Months,Low,557.52,0.0,0.0,Developing
+311,42,Male,0,104.31,Two-Year,No Internet,0.0,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1251.72,104.31,1251.72,New
+312,55,Female,6,55.71,Month-to-Month,No Internet,334.26,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Moderate,668.52,55.71,668.52,New
+313,53,Male,24,113.44,Two-Year,Fiber Optic,2722.56,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1361.28,113.44,1361.28,Developing
+314,53,Female,1,117.29,Month-to-Month,Fiber Optic,117.29,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1407.48,117.29,1407.48,New
+315,58,Female,36,81.41,Month-to-Month,DSL,2930.76,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,High,976.92,81.41,976.92,Established
+316,45,Female,0,42.87,Month-to-Month,Fiber Optic,0.0,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,514.4399999999999,42.87,514.4399999999999,New
+317,51,Female,5,63.71,Month-to-Month,No Internet,318.55,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,764.52,63.71,764.52,New
+318,41,Male,27,101.8,Month-to-Month,DSL,2748.6,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1221.6,101.8,1221.6,Established
+319,48,Male,7,63.07,Month-to-Month,Fiber Optic,441.49,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,756.84,63.07,756.84,Developing
+320,43,Female,2,37.83,Month-to-Month,No Internet,75.66,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,453.96,37.83,453.96,New
+321,45,Female,8,80.11,Two-Year,No Internet,640.88,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,961.3199999999999,80.11,961.3199999999999,Developing
+322,50,Female,6,106.06,Two-Year,DSL,636.36,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1272.72,106.06,1272.72,New
+323,36,Female,36,101.63,Month-to-Month,Fiber Optic,3658.68,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1219.56,101.63,1219.56,Established
+324,65,Female,7,45.76,Two-Year,DSL,320.32,No,Yes,1,Expected Range,Expected Range,65+,7-12 Months,Low,549.12,45.76,549.12,Developing
+325,34,Male,31,90.55,Two-Year,DSL,2807.0499999999997,Yes,No,0,Expected Range,Expected Range,25-34,25-48 Months,High,1086.6,0.0,0.0,Established
+326,32,Male,44,49.85,One-Year,No Internet,2193.4,No,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,Low,598.2,49.85,598.2,Established
+327,56,Female,11,49.64,Month-to-Month,No Internet,546.04,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Low,595.6800000000001,49.64,595.6800000000001,Developing
+328,52,Female,48,108.67,One-Year,No Internet,5216.16,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1304.04,108.67,1304.04,Established
+329,51,Male,9,52.47,Two-Year,DSL,472.23,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,629.64,52.47,629.64,Developing
+330,51,Female,66,53.69,One-Year,No Internet,3543.54,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Moderate,644.28,53.69,644.28,Loyal
+331,44,Male,1,30.06,Month-to-Month,Fiber Optic,30.06,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,360.71999999999997,30.06,360.71999999999997,New
+332,36,Female,23,108.36,One-Year,Fiber Optic,2492.28,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Premium,1300.32,108.36,1300.32,Developing
+333,45,Male,13,101.33,One-Year,Fiber Optic,1317.29,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1215.96,101.33,1215.96,Developing
+334,38,Male,9,86.46,One-Year,DSL,778.14,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,1037.52,86.46,1037.52,Developing
+335,54,Female,20,97.52,Month-to-Month,No Internet,1950.4,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,1170.24,97.52,1170.24,Developing
+336,43,Male,24,43.68,Month-to-Month,Fiber Optic,1048.32,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,524.16,43.68,524.16,Developing
+337,36,Female,0,71.25,Two-Year,DSL,0.0,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,855.0,71.25,855.0,New
+338,41,Female,3,61.61,Two-Year,DSL,184.83,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,739.3199999999999,61.61,739.3199999999999,New
+339,49,Female,24,38.44,Month-to-Month,DSL,922.56,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Low,461.28,38.44,461.28,Developing
+340,39,Male,21,73.75,Two-Year,DSL,1548.75,Yes,No,0,Expected Range,Expected Range,35-44,13-24 Months,Moderate,885.0,0.0,0.0,Developing
+341,36,Male,67,112.87,Month-to-Month,Fiber Optic,7562.29,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Premium,1354.44,112.87,1354.44,Loyal
+342,47,Male,28,33.61,One-Year,No Internet,941.08,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,403.32,33.61,403.32,Established
+343,47,Female,60,56.23,One-Year,DSL,3373.7999999999997,Yes,No,0,Expected Range,Expected Range,45-54,49-72 Months,Moderate,674.76,0.0,0.0,Loyal
+344,39,Female,24,48.68,Two-Year,DSL,1168.32,Yes,No,0,Expected Range,Expected Range,35-44,13-24 Months,Low,584.16,0.0,0.0,Developing
+345,40,Female,7,51.43,Two-Year,Fiber Optic,360.01,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Moderate,617.16,51.43,617.16,Developing
+346,47,Female,2,111.76,Month-to-Month,No Internet,223.52,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1341.1200000000001,111.76,1341.1200000000001,New
+347,30,Female,30,72.13,Two-Year,Fiber Optic,2163.8999999999996,Yes,No,0,Expected Range,Expected Range,25-34,25-48 Months,Moderate,865.56,0.0,0.0,Established
+348,30,Female,20,71.97,Month-to-Month,Fiber Optic,1439.4,No,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Moderate,863.64,71.97,863.64,Developing
+349,37,Male,0,98.45,One-Year,Fiber Optic,0.0,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1181.4,98.45,1181.4,New
+350,42,Female,8,43.9,One-Year,DSL,351.2,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,526.8,43.9,526.8,Developing
+351,48,Male,62,73.85,One-Year,DSL,4578.7,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Moderate,886.1999999999999,73.85,886.1999999999999,Loyal
+352,59,Female,13,68.7,Month-to-Month,No Internet,893.1,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Moderate,824.4000000000001,68.7,824.4000000000001,Developing
+353,53,Female,11,83.72,Two-Year,Fiber Optic,920.92,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,1004.64,83.72,1004.64,Developing
+354,43,Female,12,119.96,Month-to-Month,Fiber Optic,1439.52,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Premium,1439.52,119.96,1439.52,Developing
+355,44,Male,4,99.25,Month-to-Month,No Internet,397.0,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1191.0,99.25,1191.0,New
+356,34,Male,9,65.81,One-Year,Fiber Optic,592.29,No,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Moderate,789.72,65.81,789.72,Developing
+357,44,Male,9,104.48,Month-to-Month,DSL,940.32,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Premium,1253.76,104.48,1253.76,Developing
+358,42,Male,1,45.36,Two-Year,Fiber Optic,45.36,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,544.3199999999999,45.36,544.3199999999999,New
+359,48,Male,29,32.74,Month-to-Month,DSL,949.46,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,392.88,32.74,392.88,Established
+360,36,Female,10,48.4,Month-to-Month,DSL,484.0,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,580.8,48.4,580.8,Developing
+361,50,Female,34,60.64,Two-Year,Fiber Optic,2061.76,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,Moderate,727.6800000000001,0.0,0.0,Established
+362,60,Male,37,75.95,One-Year,No Internet,2810.15,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,High,911.4000000000001,75.95,911.4000000000001,Established
+363,43,Male,4,85.36,Month-to-Month,No Internet,341.44,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1024.32,85.36,1024.32,New
+364,49,Male,21,111.95,One-Year,Fiber Optic,2350.9500000000003,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1343.4,111.95,1343.4,Developing
+365,51,Female,12,75.89,One-Year,DSL,910.68,Yes,No,0,Expected Range,Expected Range,45-54,7-12 Months,High,910.6800000000001,0.0,0.0,Developing
+366,40,Female,42,75.11,One-Year,DSL,3154.62,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,High,901.3199999999999,0.0,0.0,Established
+367,47,Female,4,34.52,Month-to-Month,No Internet,138.08,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,414.24,34.52,414.24,New
+368,45,Female,22,33.14,Two-Year,Fiber Optic,729.08,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Low,397.68,33.14,397.68,Developing
+369,45,Female,18,79.6,Two-Year,Fiber Optic,1432.8,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,955.1999999999999,79.6,955.1999999999999,Developing
+370,37,Female,6,69.44,One-Year,No Internet,416.64,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,833.28,69.44,833.28,New
+371,45,Male,2,105.53,Month-to-Month,No Internet,211.06,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1266.3600000000001,105.53,1266.3600000000001,New
+372,49,Female,21,44.46,Two-Year,No Internet,933.66,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Low,533.52,44.46,533.52,Developing
+373,59,Male,26,32.25,One-Year,DSL,838.5,Yes,No,0,Expected Range,Expected Range,55-64,25-48 Months,Low,387.0,0.0,0.0,Established
+374,54,Female,7,70.41,One-Year,No Internet,492.87,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,844.92,70.41,844.92,Developing
+375,66,Male,20,51.37,Month-to-Month,No Internet,1027.4,No,Yes,1,Expected Range,Expected Range,65+,13-24 Months,Moderate,616.4399999999999,51.37,616.4399999999999,Developing
+376,37,Female,10,34.47,Two-Year,DSL,344.7,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,413.64,34.47,413.64,Developing
+377,53,Female,24,95.21,One-Year,Fiber Optic,2285.04,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,High,1142.52,0.0,0.0,Developing
+378,46,Female,4,40.04,Month-to-Month,Fiber Optic,160.16,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,480.48,40.04,480.48,New
+379,66,Female,44,84.75,Month-to-Month,No Internet,3729.0,No,Yes,1,Expected Range,Expected Range,65+,25-48 Months,High,1017.0,84.75,1017.0,Established
+380,36,Male,6,55.29,Two-Year,DSL,331.74,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,663.48,55.29,663.48,New
+381,36,Male,9,45.61,Month-to-Month,Fiber Optic,410.49,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,547.3199999999999,45.61,547.3199999999999,Developing
+382,39,Male,1,64.18,Two-Year,DSL,64.18,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,770.1600000000001,64.18,770.1600000000001,New
+383,23,Male,2,102.13,One-Year,No Internet,204.26,No,Yes,1,Expected Range,Expected Range,Under 25,0-6 Months,Premium,1225.56,102.13,1225.56,New
+384,39,Female,14,65.29,One-Year,DSL,914.06,Yes,No,0,Expected Range,Expected Range,35-44,13-24 Months,Moderate,783.48,0.0,0.0,Developing
+385,37,Male,6,97.57,Month-to-Month,DSL,585.42,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1170.84,97.57,1170.84,New
+386,46,Female,36,41.29,Month-to-Month,Fiber Optic,1486.44,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,495.48,41.29,495.48,Established
+387,48,Female,0,99.55,Two-Year,No Internet,0.0,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1194.6,99.55,1194.6,New
+388,63,Female,9,51.32,Month-to-Month,DSL,461.88,Yes,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Moderate,615.84,51.32,615.84,Developing
+389,54,Male,8,90.97,One-Year,DSL,727.76,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,1091.6399999999999,90.97,1091.6399999999999,Developing
+390,39,Female,0,80.92,Month-to-Month,No Internet,0.0,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,971.04,80.92,971.04,New
+391,36,Female,2,113.62,Month-to-Month,Fiber Optic,227.24,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1363.44,113.62,1363.44,New
+392,49,Female,10,64.86,Month-to-Month,No Internet,648.6,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,778.3199999999999,64.86,778.3199999999999,Developing
+393,31,Female,13,35.95,One-Year,DSL,467.35,Yes,No,0,Expected Range,Expected Range,25-34,13-24 Months,Low,431.40000000000003,0.0,0.0,Developing
+394,63,Female,10,31.72,Two-Year,Fiber Optic,317.2,Yes,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Low,380.64,31.72,380.64,Developing
+395,56,Male,15,104.42,Month-to-Month,DSL,1566.3,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Premium,1253.04,104.42,1253.04,Developing
+396,40,Female,18,77.23,Month-to-Month,DSL,1390.14,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,926.76,77.23,926.76,Developing
+397,27,Male,0,99.77,Month-to-Month,Fiber Optic,0.0,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,High,1197.24,99.77,1197.24,New
+398,58,Male,12,51.1,One-Year,Fiber Optic,613.2,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Moderate,613.2,51.1,613.2,Developing
+399,43,Male,66,61.06,Month-to-Month,No Internet,4029.96,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Moderate,732.72,61.06,732.72,Loyal
+400,57,Male,14,32.71,Two-Year,Fiber Optic,457.94,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Low,392.52,32.71,392.52,Developing
+401,29,Male,22,116.53,One-Year,Fiber Optic,2563.66,Yes,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Premium,1398.3600000000001,116.53,1398.3600000000001,Developing
+402,39,Male,7,90.11,One-Year,Fiber Optic,630.77,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,1081.32,90.11,1081.32,Developing
+403,45,Female,29,113.99,Month-to-Month,No Internet,3305.71,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1367.8799999999999,113.99,1367.8799999999999,Established
+404,45,Female,29,53.89,Two-Year,DSL,1562.81,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,Moderate,646.6800000000001,0.0,0.0,Established
+405,40,Female,14,85.03,Month-to-Month,DSL,1190.42,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,1020.36,85.03,1020.36,Developing
+406,51,Male,74,91.06,Month-to-Month,Fiber Optic,6738.4400000000005,No,Yes,1,Expected Range,Expected Range,45-54,73+ Months,High,1092.72,91.06,1092.72,Loyal
+407,34,Male,2,58.58,One-Year,Fiber Optic,117.16,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,702.96,58.58,702.96,New
+408,43,Female,0,106.33,One-Year,DSL,0.0,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1275.96,106.33,1275.96,New
+409,46,Male,29,115.24,Month-to-Month,No Internet,3341.96,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1382.8799999999999,115.24,1382.8799999999999,Established
+410,50,Male,32,109.64,Month-to-Month,DSL,3508.48,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1315.68,109.64,1315.68,Established
+411,52,Female,2,96.52,One-Year,No Internet,193.04,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1158.24,96.52,1158.24,New
+412,33,Male,6,54.97,Month-to-Month,DSL,329.82,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,659.64,54.97,659.64,New
+413,29,Female,0,55.35,Two-Year,Fiber Optic,0.0,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,664.2,55.35,664.2,New
+414,57,Female,6,116.7,One-Year,No Internet,700.2,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Premium,1400.4,116.7,1400.4,New
+415,48,Male,29,30.93,Month-to-Month,DSL,896.97,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,371.15999999999997,30.93,371.15999999999997,Established
+416,37,Male,14,94.44,Month-to-Month,No Internet,1322.16,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,1133.28,94.44,1133.28,Developing
+417,60,Female,8,93.56,Month-to-Month,Fiber Optic,748.48,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,High,1122.72,93.56,1122.72,Developing
+418,46,Male,9,86.04,One-Year,No Internet,774.36,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,1032.48,86.04,1032.48,Developing
+419,56,Male,0,119.11,One-Year,Fiber Optic,0.0,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Premium,1429.32,119.11,1429.32,New
+420,45,Female,7,58.07,Month-to-Month,Fiber Optic,406.49,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,696.84,58.07,696.84,Developing
+421,65,Male,20,60.6,One-Year,DSL,1212.0,Yes,No,0,Expected Range,Expected Range,65+,13-24 Months,Moderate,727.2,0.0,0.0,Developing
+422,62,Female,73,37.1,Two-Year,Fiber Optic,2708.3,Yes,No,0,Expected Range,Expected Range,55-64,73+ Months,Low,445.20000000000005,0.0,0.0,Loyal
+423,42,Female,37,69.85,Month-to-Month,DSL,2584.45,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,838.1999999999999,69.85,838.1999999999999,Established
+424,54,Male,0,53.49,Two-Year,DSL,0.0,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,641.88,53.49,641.88,New
+425,51,Male,45,60.9,Month-to-Month,DSL,2740.5,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Moderate,730.8,60.9,730.8,Established
+426,58,Male,30,105.11,Month-to-Month,Fiber Optic,3153.3,Yes,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,Premium,1261.32,105.11,1261.32,Established
+427,35,Male,30,114.19,Month-to-Month,No Internet,3425.7,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1370.28,114.19,1370.28,Established
+428,51,Male,12,46.72,Month-to-Month,DSL,560.64,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Low,560.64,46.72,560.64,Developing
+429,55,Female,10,63.53,Month-to-Month,DSL,635.3,Yes,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Moderate,762.36,63.53,762.36,Developing
+430,27,Male,7,113.58,Month-to-Month,Fiber Optic,795.06,Yes,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Premium,1362.96,113.58,1362.96,Developing
+431,33,Female,1,35.56,Two-Year,DSL,35.56,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Low,426.72,35.56,426.72,New
+432,24,Female,5,38.31,Two-Year,DSL,191.55,Yes,Yes,1,Expected Range,Expected Range,Under 25,0-6 Months,Low,459.72,38.31,459.72,New
+433,42,Female,5,44.65,One-Year,DSL,223.25,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,535.8,44.65,535.8,New
+434,52,Female,13,83.57,Month-to-Month,No Internet,1086.41,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,1002.8399999999999,83.57,1002.8399999999999,Developing
+435,60,Male,27,43.54,Month-to-Month,No Internet,1175.58,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,Low,522.48,43.54,522.48,Established
+436,45,Female,12,117.13,Month-to-Month,Fiber Optic,1405.56,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Premium,1405.56,117.13,1405.56,Developing
+437,61,Female,1,70.2,One-Year,Fiber Optic,70.2,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Moderate,842.4000000000001,70.2,842.4000000000001,New
+438,31,Male,63,75.14,Two-Year,Fiber Optic,4733.82,Yes,No,0,Expected Range,Expected Range,25-34,49-72 Months,High,901.6800000000001,0.0,0.0,Loyal
+439,27,Male,57,52.2,Month-to-Month,Fiber Optic,2975.4,Yes,Yes,1,Expected Range,Expected Range,25-34,49-72 Months,Moderate,626.4000000000001,52.2,626.4000000000001,Loyal
+440,44,Female,30,72.39,Month-to-Month,Fiber Optic,2171.7,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,868.6800000000001,72.39,868.6800000000001,Established
+441,48,Male,94,89.57,One-Year,Fiber Optic,8419.58,No,Yes,1,Expected Range,Expected Range,45-54,73+ Months,High,1074.84,89.57,1074.84,Loyal
+442,44,Male,15,97.61,Month-to-Month,DSL,1464.15,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,1171.32,97.61,1171.32,Developing
+443,24,Male,65,97.85,Month-to-Month,DSL,6360.25,Yes,Yes,1,Expected Range,Expected Range,Under 25,49-72 Months,High,1174.1999999999998,97.85,1174.1999999999998,Loyal
+444,44,Male,1,82.01,One-Year,Fiber Optic,82.01,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,984.1200000000001,82.01,984.1200000000001,New
+445,31,Female,9,111.39,One-Year,No Internet,1002.51,No,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Premium,1336.68,111.39,1336.68,Developing
+446,51,Female,5,103.57,Month-to-Month,Fiber Optic,517.8499999999999,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1242.84,103.57,1242.84,New
+447,48,Female,4,98.13,Month-to-Month,No Internet,392.52,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1177.56,98.13,1177.56,New
+448,35,Male,3,35.0,Two-Year,No Internet,105.0,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,420.0,35.0,420.0,New
+449,39,Male,19,30.62,Month-to-Month,DSL,581.78,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,367.44,30.62,367.44,Developing
+450,34,Female,30,49.12,Month-to-Month,Fiber Optic,1473.6,No,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,Low,589.4399999999999,49.12,589.4399999999999,Established
+451,44,Male,17,89.72,Month-to-Month,Fiber Optic,1525.24,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,1076.6399999999999,89.72,1076.6399999999999,Developing
+452,54,Male,3,67.01,Month-to-Month,No Internet,201.03000000000003,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,804.1200000000001,67.01,804.1200000000001,New
+453,35,Female,33,66.22,Month-to-Month,No Internet,2185.26,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,794.64,66.22,794.64,Established
+454,50,Male,20,109.61,Two-Year,Fiber Optic,2192.2,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1315.32,109.61,1315.32,Developing
+455,39,Female,9,110.6,Month-to-Month,DSL,995.4,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Premium,1327.1999999999998,110.6,1327.1999999999998,Developing
+456,37,Male,22,111.83,Month-to-Month,No Internet,2460.26,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Premium,1341.96,111.83,1341.96,Developing
+457,43,Male,6,58.25,One-Year,DSL,349.5,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,699.0,58.25,699.0,New
+458,34,Male,8,92.2,One-Year,No Internet,737.6,No,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,High,1106.4,92.2,1106.4,Developing
+459,39,Female,49,54.45,Two-Year,No Internet,2668.05,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Moderate,653.4000000000001,54.45,653.4000000000001,Loyal
+460,33,Female,6,47.15,Two-Year,Fiber Optic,282.9,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Low,565.8,47.15,565.8,New
+461,64,Female,12,46.62,Month-to-Month,Fiber Optic,559.4399999999999,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Low,559.4399999999999,46.62,559.4399999999999,Developing
+462,45,Female,44,60.79,One-Year,Fiber Optic,2674.76,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,Moderate,729.48,0.0,0.0,Established
+463,38,Male,24,68.7,Month-to-Month,Fiber Optic,1648.8000000000002,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,824.4000000000001,68.7,824.4000000000001,Developing
+464,47,Female,1,104.79,Two-Year,Fiber Optic,104.79,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1257.48,104.79,1257.48,New
+465,43,Male,3,40.79,Month-to-Month,No Internet,122.37,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,489.48,40.79,489.48,New
+466,42,Female,0,96.14,Two-Year,No Internet,0.0,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1153.68,96.14,1153.68,New
+467,51,Male,19,77.83,One-Year,No Internet,1478.77,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,933.96,77.83,933.96,Developing
+468,52,Female,11,55.92,Month-to-Month,DSL,615.12,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,671.04,55.92,671.04,Developing
+469,39,Male,2,74.35,One-Year,No Internet,148.7,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,892.1999999999999,74.35,892.1999999999999,New
+470,39,Male,63,56.99,Two-Year,No Internet,3590.3700000000003,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Moderate,683.88,56.99,683.88,Loyal
+471,42,Female,15,83.65,Two-Year,DSL,1254.75,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,1003.8000000000001,83.65,1003.8000000000001,Developing
+472,21,Male,5,69.05,Month-to-Month,DSL,345.25,Yes,Yes,1,Expected Range,Expected Range,Under 25,0-6 Months,Moderate,828.5999999999999,69.05,828.5999999999999,New
+473,29,Male,13,44.8,One-Year,DSL,582.4,No,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Low,537.5999999999999,44.8,537.5999999999999,Developing
+474,58,Male,22,40.49,Month-to-Month,No Internet,890.7800000000001,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Low,485.88,40.49,485.88,Developing
+475,61,Male,1,79.2,Month-to-Month,Fiber Optic,79.2,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,High,950.4000000000001,79.2,950.4000000000001,New
+476,42,Female,6,111.22,Month-to-Month,No Internet,667.3199999999999,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1334.6399999999999,111.22,1334.6399999999999,New
+477,50,Female,32,60.96,Month-to-Month,DSL,1950.72,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Moderate,731.52,60.96,731.52,Established
+478,48,Female,12,95.97,Two-Year,No Internet,1151.64,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,1151.6399999999999,95.97,1151.6399999999999,Developing
+479,75,Female,15,89.28,Month-to-Month,DSL,1339.2,Yes,Yes,1,Expected Range,Expected Range,65+,13-24 Months,High,1071.3600000000001,89.28,1071.3600000000001,Developing
+480,56,Male,11,113.84,Two-Year,Fiber Optic,1252.24,Yes,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Premium,1366.08,113.84,1366.08,Developing
+481,43,Female,0,103.89,Month-to-Month,Fiber Optic,0.0,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1246.68,103.89,1246.68,New
+482,35,Male,3,80.99,Month-to-Month,DSL,242.96999999999997,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,971.8799999999999,80.99,971.8799999999999,New
+483,28,Male,11,89.13,Month-to-Month,No Internet,980.43,No,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,High,1069.56,89.13,1069.56,Developing
+484,47,Female,4,110.85,Month-to-Month,DSL,443.4,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1330.1999999999998,110.85,1330.1999999999998,New
+485,37,Male,1,65.96,Month-to-Month,Fiber Optic,65.96,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,791.52,65.96,791.52,New
+486,30,Female,37,59.41,Month-to-Month,Fiber Optic,2198.17,Yes,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,Moderate,712.92,59.41,712.92,Established
+487,38,Male,79,30.97,One-Year,Fiber Optic,2446.63,Yes,No,0,Expected Range,Expected Range,35-44,73+ Months,Low,371.64,0.0,0.0,Loyal
+488,34,Female,31,104.39,Month-to-Month,DSL,3236.09,Yes,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,Premium,1252.68,104.39,1252.68,Established
+489,61,Female,38,102.09,Month-to-Month,DSL,3879.42,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,Premium,1225.08,102.09,1225.08,Established
+490,53,Female,5,39.4,Month-to-Month,No Internet,197.0,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,472.79999999999995,39.4,472.79999999999995,New
+491,44,Female,64,81.92,Two-Year,DSL,5242.88,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,High,983.04,81.92,983.04,Loyal
+492,59,Female,4,71.76,Two-Year,No Internet,287.04,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Moderate,861.1200000000001,71.76,861.1200000000001,New
+493,45,Male,60,40.68,Month-to-Month,No Internet,2440.8,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Low,488.15999999999997,40.68,488.15999999999997,Loyal
+494,36,Female,105,118.25,Month-to-Month,DSL,12416.25,Yes,Yes,1,Expected Range,Expected Range,35-44,73+ Months,Premium,1419.0,118.25,1419.0,Loyal
+495,60,Male,24,49.32,Month-to-Month,DSL,1183.68,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Low,591.84,49.32,591.84,Developing
+496,50,Female,79,36.05,Two-Year,Fiber Optic,2847.95,Yes,No,0,Expected Range,Expected Range,45-54,73+ Months,Low,432.59999999999997,0.0,0.0,Loyal
+497,34,Female,16,83.54,Month-to-Month,No Internet,1336.64,No,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,High,1002.48,83.54,1002.48,Developing
+498,43,Female,6,96.5,Month-to-Month,No Internet,579.0,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1158.0,96.5,1158.0,New
+499,36,Male,11,32.92,Month-to-Month,Fiber Optic,362.12,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,395.04,32.92,395.04,Developing
+500,31,Male,18,89.28,Month-to-Month,No Internet,1607.04,No,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,High,1071.3600000000001,89.28,1071.3600000000001,Developing
+501,54,Female,1,77.91,Month-to-Month,DSL,77.91,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,934.92,77.91,934.92,New
+502,64,Male,19,39.29,One-Year,No Internet,746.51,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Low,471.48,39.29,471.48,Developing
+503,31,Male,79,45.53,Month-to-Month,No Internet,3596.87,No,Yes,1,Expected Range,Expected Range,25-34,73+ Months,Low,546.36,45.53,546.36,Loyal
+504,50,Male,4,81.12,One-Year,DSL,324.48,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,973.44,81.12,973.44,New
+505,38,Female,31,56.67,Month-to-Month,DSL,1756.77,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,680.04,56.67,680.04,Established
+506,40,Female,47,114.45,Month-to-Month,DSL,5379.150000000001,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1373.4,114.45,1373.4,Established
+507,39,Male,57,103.69,Two-Year,DSL,5910.33,Yes,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Premium,1244.28,103.69,1244.28,Loyal
+508,36,Male,64,118.52,Month-to-Month,No Internet,7585.28,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Premium,1422.24,118.52,1422.24,Loyal
+509,45,Male,14,53.37,Two-Year,Fiber Optic,747.18,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,Moderate,640.4399999999999,0.0,0.0,Developing
+510,36,Female,75,117.28,One-Year,DSL,8796.0,No,Yes,1,Expected Range,Expected Range,35-44,73+ Months,Premium,1407.3600000000001,117.28,1407.3600000000001,Loyal
+511,47,Female,28,68.81,Month-to-Month,Fiber Optic,1926.68,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Moderate,825.72,68.81,825.72,Established
+512,44,Male,3,61.28,Two-Year,No Internet,183.84,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,735.36,61.28,735.36,New
+513,42,Male,12,34.53,Month-to-Month,Fiber Optic,414.36,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,414.36,34.53,414.36,Developing
+514,35,Male,25,34.75,Two-Year,Fiber Optic,868.75,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,Low,417.0,0.0,0.0,Established
+515,39,Female,5,92.28,Month-to-Month,DSL,461.4,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1107.3600000000001,92.28,1107.3600000000001,New
+516,52,Female,20,71.21,Two-Year,No Internet,1424.1999999999998,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Moderate,854.52,71.21,854.52,Developing
+517,50,Male,21,50.39,Month-to-Month,No Internet,1058.19,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Moderate,604.6800000000001,50.39,604.6800000000001,Developing
+518,35,Male,3,85.26,One-Year,DSL,255.78000000000003,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1023.1200000000001,85.26,1023.1200000000001,New
+519,45,Male,16,52.76,One-Year,DSL,844.16,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,Moderate,633.12,0.0,0.0,Developing
+520,52,Female,29,81.99,Two-Year,DSL,2377.71,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,High,983.8799999999999,0.0,0.0,Established
+521,28,Male,13,62.33,Two-Year,DSL,810.29,Yes,No,0,Expected Range,Expected Range,25-34,13-24 Months,Moderate,747.96,0.0,0.0,Developing
+522,50,Female,0,104.12,Two-Year,Fiber Optic,0.0,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1249.44,104.12,1249.44,New
+523,38,Female,0,103.86,Two-Year,No Internet,0.0,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1246.32,103.86,1246.32,New
+524,50,Male,8,72.96,Month-to-Month,Fiber Optic,583.68,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,875.52,72.96,875.52,Developing
+525,37,Male,52,61.57,Month-to-Month,No Internet,3201.64,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Moderate,738.84,61.57,738.84,Loyal
+526,26,Male,5,62.63,Month-to-Month,Fiber Optic,313.15000000000003,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,751.5600000000001,62.63,751.5600000000001,New
+527,28,Female,20,102.51,Month-to-Month,No Internet,2050.2000000000003,No,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Premium,1230.1200000000001,102.51,1230.1200000000001,Developing
+528,45,Female,5,59.54,Month-to-Month,No Internet,297.7,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,714.48,59.54,714.48,New
+529,47,Female,7,48.82,One-Year,DSL,341.74,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Low,585.84,48.82,585.84,Developing
+530,35,Female,37,37.62,Month-to-Month,Fiber Optic,1391.9399999999998,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Low,451.43999999999994,37.62,451.43999999999994,Established
+531,51,Male,26,72.0,One-Year,Fiber Optic,1872.0,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,Moderate,864.0,0.0,0.0,Established
+532,28,Female,2,73.39,Month-to-Month,DSL,146.78,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,880.6800000000001,73.39,880.6800000000001,New
+533,44,Female,11,105.68,Month-to-Month,Fiber Optic,1162.48,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Premium,1268.16,105.68,1268.16,Developing
+534,32,Male,0,49.91,One-Year,Fiber Optic,0.0,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Low,598.92,49.91,598.92,New
+535,38,Female,13,64.29,One-Year,No Internet,835.7700000000001,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,771.48,64.29,771.48,Developing
+536,45,Female,21,102.76,One-Year,Fiber Optic,2157.96,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1233.1200000000001,102.76,1233.1200000000001,Developing
+537,36,Female,2,104.13,One-Year,No Internet,208.26,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1249.56,104.13,1249.56,New
+538,41,Female,6,64.61,Month-to-Month,Fiber Optic,387.66,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,775.3199999999999,64.61,775.3199999999999,New
+539,55,Female,10,71.32,One-Year,No Internet,713.1999999999999,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Moderate,855.8399999999999,71.32,855.8399999999999,Developing
+540,39,Female,50,57.3,Month-to-Month,Fiber Optic,2865.0,Yes,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Moderate,687.5999999999999,57.3,687.5999999999999,Loyal
+541,53,Male,99,113.93,Month-to-Month,No Internet,11279.070000000002,No,Yes,1,Expected Range,Expected Range,45-54,73+ Months,Premium,1367.16,113.93,1367.16,Loyal
+542,33,Male,0,40.68,Month-to-Month,Fiber Optic,0.0,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Low,488.15999999999997,40.68,488.15999999999997,New
+543,50,Female,28,114.04,Month-to-Month,Fiber Optic,3193.1200000000003,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1368.48,114.04,1368.48,Established
+544,59,Male,9,91.55,Month-to-Month,Fiber Optic,823.9499999999999,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,High,1098.6,91.55,1098.6,Developing
+545,20,Male,9,77.84,Two-Year,Fiber Optic,700.5600000000001,No,Yes,1,Expected Range,Expected Range,Under 25,7-12 Months,High,934.08,77.84,934.08,Developing
+546,37,Male,28,32.94,Two-Year,DSL,922.32,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,Low,395.28,0.0,0.0,Established
+547,50,Male,50,72.8,Month-to-Month,DSL,3640.0,Yes,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Moderate,873.5999999999999,72.8,873.5999999999999,Loyal
+548,42,Female,60,66.7,Month-to-Month,DSL,4002.0,Yes,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Moderate,800.4000000000001,66.7,800.4000000000001,Loyal
+549,48,Female,17,44.51,Month-to-Month,No Internet,756.67,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Low,534.12,44.51,534.12,Developing
+550,38,Male,8,89.08,Month-to-Month,DSL,712.64,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,1068.96,89.08,1068.96,Developing
+551,45,Male,30,117.4,Two-Year,DSL,3522.0,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1408.8000000000002,117.4,1408.8000000000002,Established
+552,43,Male,5,80.6,Month-to-Month,No Internet,403.0,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,967.1999999999999,80.6,967.1999999999999,New
+553,56,Female,16,94.33,One-Year,Fiber Optic,1509.28,Yes,No,0,Expected Range,Expected Range,55-64,13-24 Months,High,1131.96,0.0,0.0,Developing
+554,47,Female,8,36.16,Month-to-Month,Fiber Optic,289.28,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Low,433.91999999999996,36.16,433.91999999999996,Developing
+555,48,Male,21,67.59,Two-Year,DSL,1419.39,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,Moderate,811.08,0.0,0.0,Developing
+556,40,Female,5,40.47,Month-to-Month,No Internet,202.35,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,485.64,40.47,485.64,New
+557,40,Female,4,85.15,One-Year,No Internet,340.6,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1021.8000000000001,85.15,1021.8000000000001,New
+558,40,Female,50,114.46,Month-to-Month,No Internet,5723.0,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Premium,1373.52,114.46,1373.52,Loyal
+559,48,Female,2,89.56,One-Year,Fiber Optic,179.12,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1074.72,89.56,1074.72,New
+560,40,Male,14,36.91,Month-to-Month,No Internet,516.74,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,442.91999999999996,36.91,442.91999999999996,Developing
+561,47,Female,4,61.92,Month-to-Month,DSL,247.68,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,743.04,61.92,743.04,New
+562,65,Male,0,79.56,Two-Year,DSL,0.0,Yes,Yes,1,Expected Range,Expected Range,65+,0-6 Months,High,954.72,79.56,954.72,New
+563,53,Female,0,66.29,Two-Year,DSL,0.0,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,795.48,66.29,795.48,New
+564,41,Female,3,105.03,Two-Year,Fiber Optic,315.09000000000003,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1260.3600000000001,105.03,1260.3600000000001,New
+565,57,Female,40,103.32,One-Year,Fiber Optic,4132.799999999999,Yes,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,Premium,1239.84,103.32,1239.84,Established
+566,40,Female,6,85.06,Two-Year,Fiber Optic,510.36,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1020.72,85.06,1020.72,New
+567,24,Male,60,63.61,Month-to-Month,DSL,3816.6,No,Yes,1,Expected Range,Expected Range,Under 25,49-72 Months,Moderate,763.3199999999999,63.61,763.3199999999999,Loyal
+568,34,Female,17,52.98,Month-to-Month,Fiber Optic,900.66,Yes,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Moderate,635.76,52.98,635.76,Developing
+569,26,Female,11,39.53,Month-to-Month,No Internet,434.83,No,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Low,474.36,39.53,474.36,Developing
+570,41,Female,17,61.94,One-Year,Fiber Optic,1052.98,Yes,No,0,Expected Range,Expected Range,35-44,13-24 Months,Moderate,743.28,0.0,0.0,Developing
+571,45,Male,14,67.19,Month-to-Month,No Internet,940.66,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Moderate,806.28,67.19,806.28,Developing
+572,61,Male,28,90.82,Month-to-Month,DSL,2542.96,Yes,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,High,1089.84,90.82,1089.84,Established
+573,48,Male,6,89.23,One-Year,No Internet,535.38,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1070.76,89.23,1070.76,New
+574,42,Female,8,36.31,Two-Year,Fiber Optic,290.48,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,435.72,36.31,435.72,Developing
+575,53,Female,44,65.57,Month-to-Month,DSL,2885.08,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Moderate,786.8399999999999,65.57,786.8399999999999,Established
+576,22,Male,58,46.36,Month-to-Month,DSL,2688.88,Yes,Yes,1,Expected Range,Expected Range,Under 25,49-72 Months,Low,556.3199999999999,46.36,556.3199999999999,Loyal
+577,47,Female,44,44.11,Month-to-Month,Fiber Optic,1940.84,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,529.3199999999999,44.11,529.3199999999999,Established
+578,52,Female,10,104.46,Month-to-Month,No Internet,1044.6,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Premium,1253.52,104.46,1253.52,Developing
+579,30,Female,30,33.77,Month-to-Month,Fiber Optic,1013.1,No,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,Low,405.24,33.77,405.24,Established
+580,56,Female,12,67.73,One-Year,DSL,812.76,Yes,No,0,Expected Range,Expected Range,55-64,7-12 Months,Moderate,812.76,0.0,0.0,Developing
+581,48,Female,13,45.14,One-Year,No Internet,586.82,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Low,541.6800000000001,45.14,541.6800000000001,Developing
+582,40,Female,4,109.14,One-Year,Fiber Optic,436.56,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1309.68,109.14,1309.68,New
+583,51,Male,17,80.13,Month-to-Month,Fiber Optic,1362.21,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,961.56,80.13,961.56,Developing
+584,67,Female,4,50.82,Two-Year,Fiber Optic,203.28,Yes,Yes,1,Expected Range,Expected Range,65+,0-6 Months,Moderate,609.84,50.82,609.84,New
+585,46,Female,8,75.22,Month-to-Month,DSL,601.76,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,902.64,75.22,902.64,Developing
+586,47,Female,38,95.83,Month-to-Month,Fiber Optic,3641.54,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,High,1149.96,95.83,1149.96,Established
+587,40,Female,4,116.23,Two-Year,Fiber Optic,464.92,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1394.76,116.23,1394.76,New
+588,36,Female,1,49.84,Month-to-Month,No Internet,49.84,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,598.08,49.84,598.08,New
+589,53,Male,1,109.76,Month-to-Month,Fiber Optic,109.76,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1317.1200000000001,109.76,1317.1200000000001,New
+590,36,Male,56,114.09,Two-Year,Fiber Optic,6389.04,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Premium,1369.08,114.09,1369.08,Loyal
+591,45,Male,14,112.48,Month-to-Month,Fiber Optic,1574.72,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1349.76,112.48,1349.76,Developing
+592,40,Male,10,87.19,One-Year,No Internet,871.9,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,1046.28,87.19,1046.28,Developing
+593,49,Female,33,86.68,Month-to-Month,No Internet,2860.44,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,High,1040.16,86.68,1040.16,Established
+594,48,Female,36,66.29,One-Year,Fiber Optic,2386.44,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,Moderate,795.48,0.0,0.0,Established
+595,55,Male,8,97.72,Month-to-Month,No Internet,781.76,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,High,1172.6399999999999,97.72,1172.6399999999999,Developing
+596,39,Male,23,77.82,Month-to-Month,Fiber Optic,1789.86,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,933.8399999999999,77.82,933.8399999999999,Developing
+597,42,Female,29,90.97,One-Year,Fiber Optic,2638.13,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,High,1091.6399999999999,90.97,1091.6399999999999,Established
+598,35,Male,21,68.56,Month-to-Month,DSL,1439.76,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,822.72,68.56,822.72,Developing
+599,40,Female,3,95.83,Month-to-Month,Fiber Optic,287.49,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1149.96,95.83,1149.96,New
+600,48,Female,41,104.2,Month-to-Month,DSL,4272.2,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1250.4,104.2,1250.4,Established
+601,52,Female,15,43.18,Month-to-Month,No Internet,647.7,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Low,518.16,43.18,518.16,Developing
+602,35,Male,6,104.96,Month-to-Month,Fiber Optic,629.76,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1259.52,104.96,1259.52,New
+603,53,Male,11,78.63,Month-to-Month,No Internet,864.93,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,943.56,78.63,943.56,Developing
+604,58,Female,0,106.02,Two-Year,Fiber Optic,0.0,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Premium,1272.24,106.02,1272.24,New
+605,49,Female,2,68.82,Month-to-Month,Fiber Optic,137.64,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,825.8399999999999,68.82,825.8399999999999,New
+606,63,Male,29,64.11,Month-to-Month,Fiber Optic,1859.19,Yes,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,Moderate,769.3199999999999,64.11,769.3199999999999,Established
+607,37,Female,0,112.36,Month-to-Month,DSL,0.0,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1348.32,112.36,1348.32,New
+608,32,Male,10,52.61,Month-to-Month,Fiber Optic,526.1,Yes,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Moderate,631.3199999999999,52.61,631.3199999999999,Developing
+609,27,Female,14,105.98,Two-Year,DSL,1483.72,Yes,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Premium,1271.76,105.98,1271.76,Developing
+610,59,Male,1,73.56,Month-to-Month,Fiber Optic,73.56,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Moderate,882.72,73.56,882.72,New
+611,51,Female,72,76.27,Two-Year,Fiber Optic,5491.44,Yes,No,0,Expected Range,Expected Range,45-54,49-72 Months,High,915.24,0.0,0.0,Loyal
+612,44,Male,5,57.76,Month-to-Month,No Internet,288.8,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,693.12,57.76,693.12,New
+613,47,Male,7,81.57,One-Year,DSL,570.99,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,978.8399999999999,81.57,978.8399999999999,Developing
+614,33,Male,7,59.27,One-Year,DSL,414.89,Yes,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Moderate,711.24,59.27,711.24,Developing
+615,69,Male,5,33.53,Two-Year,Fiber Optic,167.65,Yes,Yes,1,Expected Range,Expected Range,65+,0-6 Months,Low,402.36,33.53,402.36,New
+616,46,Female,0,54.48,One-Year,No Internet,0.0,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,653.76,54.48,653.76,New
+617,46,Female,26,30.57,One-Year,No Internet,794.82,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,366.84000000000003,30.57,366.84000000000003,Established
+618,52,Male,68,118.05,Month-to-Month,Fiber Optic,8027.4,Yes,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Premium,1416.6,118.05,1416.6,Loyal
+619,49,Male,5,116.92,Month-to-Month,Fiber Optic,584.6,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1403.04,116.92,1403.04,New
+620,47,Female,21,65.56,Two-Year,DSL,1376.76,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,Moderate,786.72,0.0,0.0,Developing
+621,37,Female,27,95.55,Month-to-Month,No Internet,2579.85,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,High,1146.6,95.55,1146.6,Established
+622,49,Female,37,61.12,Month-to-Month,Fiber Optic,2261.44,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Moderate,733.4399999999999,61.12,733.4399999999999,Established
+623,63,Male,10,90.4,One-Year,DSL,904.0,Yes,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,High,1084.8000000000002,90.4,1084.8000000000002,Developing
+624,58,Male,7,102.49,Month-to-Month,Fiber Optic,717.43,Yes,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Premium,1229.8799999999999,102.49,1229.8799999999999,Developing
+625,60,Female,7,115.21,Two-Year,DSL,806.4699999999999,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Premium,1382.52,115.21,1382.52,Developing
+626,39,Male,24,66.02,One-Year,No Internet,1584.48,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,792.24,66.02,792.24,Developing
+627,35,Female,33,100.5,One-Year,DSL,3316.5,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1206.0,100.5,1206.0,Established
+628,43,Male,4,53.93,Two-Year,Fiber Optic,215.72,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,647.16,53.93,647.16,New
+629,45,Female,9,119.13,Month-to-Month,DSL,1072.17,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Premium,1429.56,119.13,1429.56,Developing
+630,55,Male,46,32.32,Month-to-Month,No Internet,1486.72,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,Low,387.84000000000003,32.32,387.84000000000003,Established
+631,28,Female,32,84.32,Month-to-Month,No Internet,2698.24,No,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,High,1011.8399999999999,84.32,1011.8399999999999,Established
+632,60,Female,83,89.36,Month-to-Month,Fiber Optic,7416.88,Yes,Yes,1,Expected Range,Expected Range,55-64,73+ Months,High,1072.32,89.36,1072.32,Loyal
+633,43,Female,28,91.92,One-Year,Fiber Optic,2573.76,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,High,1103.04,0.0,0.0,Established
+634,40,Male,9,40.83,Two-Year,No Internet,367.47,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,489.96,40.83,489.96,Developing
+635,34,Female,17,114.47,Month-to-Month,DSL,1945.99,Yes,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Premium,1373.6399999999999,114.47,1373.6399999999999,Developing
+636,28,Female,21,46.31,Month-to-Month,Fiber Optic,972.51,Yes,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Low,555.72,46.31,555.72,Developing
+637,53,Female,1,86.05,Two-Year,DSL,86.05,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1032.6,86.05,1032.6,New
+638,45,Female,15,50.04,Month-to-Month,No Internet,750.6,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Moderate,600.48,50.04,600.48,Developing
+639,32,Female,24,57.65,Month-to-Month,Fiber Optic,1383.6,No,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Moderate,691.8,57.65,691.8,Developing
+640,32,Female,3,79.18,Month-to-Month,No Internet,237.54,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,High,950.1600000000001,79.18,950.1600000000001,New
+641,41,Male,30,67.55,Two-Year,Fiber Optic,2026.5,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,Moderate,810.5999999999999,0.0,0.0,Established
+642,61,Female,17,44.42,One-Year,DSL,755.14,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Low,533.04,44.42,533.04,Developing
+643,42,Female,60,45.38,One-Year,DSL,2722.8,Yes,No,0,Expected Range,Expected Range,35-44,49-72 Months,Low,544.5600000000001,0.0,0.0,Loyal
+644,29,Male,0,67.63,Two-Year,DSL,0.0,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,811.56,67.63,811.56,New
+645,42,Male,6,98.16,Month-to-Month,Fiber Optic,588.96,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1177.92,98.16,1177.92,New
+646,42,Male,18,110.82,Month-to-Month,DSL,1994.76,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Premium,1329.84,110.82,1329.84,Developing
+647,18,Female,7,37.57,Two-Year,DSL,262.99,Yes,Yes,1,Expected Range,Expected Range,Under 25,7-12 Months,Low,450.84000000000003,37.57,450.84000000000003,Developing
+648,44,Female,25,65.38,Month-to-Month,No Internet,1634.5,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,784.56,65.38,784.56,Established
+649,42,Female,28,39.02,One-Year,No Internet,1092.5600000000002,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Low,468.24,39.02,468.24,Established
+650,51,Female,2,31.49,Two-Year,Fiber Optic,62.98,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,377.88,31.49,377.88,New
+651,63,Male,14,89.55,One-Year,Fiber Optic,1253.7,Yes,No,0,Expected Range,Expected Range,55-64,13-24 Months,High,1074.6,0.0,0.0,Developing
+652,56,Male,14,84.22,One-Year,DSL,1179.08,Yes,No,0,Expected Range,Expected Range,55-64,13-24 Months,High,1010.64,0.0,0.0,Developing
+653,42,Male,9,44.67,Two-Year,Fiber Optic,402.03,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,536.04,44.67,536.04,Developing
+654,33,Male,54,51.04,Two-Year,No Internet,2756.16,No,Yes,1,Expected Range,Expected Range,25-34,49-72 Months,Moderate,612.48,51.04,612.48,Loyal
+655,70,Male,35,32.13,Month-to-Month,DSL,1124.5500000000002,No,Yes,1,Expected Range,Expected Range,65+,25-48 Months,Low,385.56000000000006,32.13,385.56000000000006,Established
+656,45,Male,23,105.15,Month-to-Month,DSL,2418.4500000000003,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1261.8000000000002,105.15,1261.8000000000002,Developing
+657,45,Female,25,117.72,Month-to-Month,No Internet,2943.0,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1412.6399999999999,117.72,1412.6399999999999,Established
+658,44,Female,12,42.19,One-Year,Fiber Optic,506.28,Yes,No,0,Expected Range,Expected Range,35-44,7-12 Months,Low,506.28,0.0,0.0,Developing
+659,46,Female,50,50.83,Month-to-Month,DSL,2541.5,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Moderate,609.96,50.83,609.96,Loyal
+660,43,Female,23,108.16,One-Year,Fiber Optic,2487.68,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Premium,1297.92,108.16,1297.92,Developing
+661,39,Female,26,113.38,Month-to-Month,Fiber Optic,2947.88,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1360.56,113.38,1360.56,Established
+662,39,Male,39,67.77,One-Year,Fiber Optic,2643.0299999999997,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,Moderate,813.24,0.0,0.0,Established
+663,44,Female,6,34.56,Month-to-Month,No Internet,207.36,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,414.72,34.56,414.72,New
+664,39,Female,32,33.55,One-Year,No Internet,1073.6,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Low,402.59999999999997,33.55,402.59999999999997,Established
+665,37,Male,4,81.66,One-Year,Fiber Optic,326.64,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,979.92,81.66,979.92,New
+666,46,Male,8,65.36,Month-to-Month,No Internet,522.88,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,784.3199999999999,65.36,784.3199999999999,Developing
+667,42,Female,8,32.58,Month-to-Month,Fiber Optic,260.64,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,390.96,32.58,390.96,Developing
+668,60,Male,76,82.49,One-Year,No Internet,6269.24,No,Yes,1,Expected Range,Expected Range,55-64,73+ Months,High,989.8799999999999,82.49,989.8799999999999,Loyal
+669,18,Female,38,31.02,Month-to-Month,Fiber Optic,1178.76,Yes,Yes,1,Expected Range,Expected Range,Under 25,25-48 Months,Low,372.24,31.02,372.24,Established
+670,55,Female,24,100.86,Month-to-Month,No Internet,2420.64,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Premium,1210.32,100.86,1210.32,Developing
+671,57,Male,25,57.58,Two-Year,No Internet,1439.5,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,Moderate,690.96,57.58,690.96,Established
+672,24,Male,16,33.62,One-Year,DSL,537.92,Yes,No,0,Expected Range,Expected Range,Under 25,13-24 Months,Low,403.43999999999994,0.0,0.0,Developing
+673,41,Male,58,82.95,Two-Year,No Internet,4811.1,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,High,995.4000000000001,82.95,995.4000000000001,Loyal
+674,41,Male,13,65.79,Month-to-Month,No Internet,855.2700000000001,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,789.48,65.79,789.48,Developing
+675,30,Male,9,117.64,Month-to-Month,No Internet,1058.76,No,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Premium,1411.68,117.64,1411.68,Developing
+676,37,Female,3,78.98,Two-Year,DSL,236.94,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,947.76,78.98,947.76,New
+677,33,Male,30,54.77,One-Year,No Internet,1643.1,No,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,Moderate,657.24,54.77,657.24,Established
+678,62,Female,26,93.85,One-Year,No Internet,2440.1,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,High,1126.1999999999998,93.85,1126.1999999999998,Established
+679,54,Male,9,54.43,Month-to-Month,DSL,489.87,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,653.16,54.43,653.16,Developing
+680,57,Female,0,111.38,Month-to-Month,No Internet,0.0,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Premium,1336.56,111.38,1336.56,New
+681,52,Male,36,63.72,Month-to-Month,DSL,2293.92,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Moderate,764.64,63.72,764.64,Established
+682,33,Male,0,79.49,Month-to-Month,DSL,0.0,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,High,953.8799999999999,79.49,953.8799999999999,New
+683,39,Female,24,34.55,Month-to-Month,Fiber Optic,829.1999999999999,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,414.59999999999997,34.55,414.59999999999997,Developing
+684,49,Female,70,68.35,Month-to-Month,Fiber Optic,4784.5,Yes,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Moderate,820.1999999999999,68.35,820.1999999999999,Loyal
+685,32,Male,11,104.91,Two-Year,Fiber Optic,1154.01,Yes,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Premium,1258.92,104.91,1258.92,Developing
+686,52,Female,5,102.51,Month-to-Month,DSL,512.5500000000001,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1230.1200000000001,102.51,1230.1200000000001,New
+687,42,Male,24,50.19,One-Year,No Internet,1204.56,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,602.28,50.19,602.28,Developing
+688,41,Female,33,50.35,Two-Year,DSL,1661.55,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,604.2,50.35,604.2,Established
+689,52,Male,15,103.56,One-Year,DSL,1553.4,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1242.72,103.56,1242.72,Developing
+690,49,Male,68,113.74,Month-to-Month,DSL,7734.32,Yes,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Premium,1364.8799999999999,113.74,1364.8799999999999,Loyal
+691,41,Female,1,38.58,One-Year,Fiber Optic,38.58,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,462.96,38.58,462.96,New
+692,56,Female,14,70.51,One-Year,No Internet,987.14,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Moderate,846.1200000000001,70.51,846.1200000000001,Developing
+693,34,Male,25,60.37,One-Year,Fiber Optic,1509.25,Yes,No,0,Expected Range,Expected Range,25-34,25-48 Months,Moderate,724.4399999999999,0.0,0.0,Established
+694,51,Female,39,108.36,One-Year,No Internet,4226.04,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1300.32,108.36,1300.32,Established
+695,50,Female,3,37.52,Two-Year,DSL,112.56,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,450.24,37.52,450.24,New
+696,41,Male,32,49.0,One-Year,Fiber Optic,1568.0,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,Low,588.0,0.0,0.0,Established
+697,48,Female,16,97.72,Month-to-Month,Fiber Optic,1563.52,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,1172.6399999999999,97.72,1172.6399999999999,Developing
+698,32,Male,10,34.62,One-Year,Fiber Optic,346.2,Yes,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Low,415.43999999999994,34.62,415.43999999999994,Developing
+699,54,Female,2,74.33,Month-to-Month,DSL,148.66,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,891.96,74.33,891.96,New
+700,43,Female,40,69.79,Two-Year,Fiber Optic,2791.6000000000004,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,Moderate,837.48,0.0,0.0,Established
+701,39,Female,3,60.1,Month-to-Month,Fiber Optic,180.3,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,721.2,60.1,721.2,New
+702,55,Male,7,65.51,Month-to-Month,No Internet,458.5700000000001,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Moderate,786.1200000000001,65.51,786.1200000000001,Developing
+703,37,Male,6,77.69,Two-Year,Fiber Optic,466.14,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,932.28,77.69,932.28,New
+704,30,Male,41,44.52,One-Year,DSL,1825.32,Yes,No,0,Expected Range,Expected Range,25-34,25-48 Months,Low,534.24,0.0,0.0,Established
+705,29,Male,22,81.48,Month-to-Month,Fiber Optic,1792.5600000000002,Yes,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,High,977.76,81.48,977.76,Developing
+706,51,Male,31,102.49,Month-to-Month,DSL,3177.19,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1229.8799999999999,102.49,1229.8799999999999,Established
+707,32,Female,5,98.41,Two-Year,No Internet,492.0499999999999,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,High,1180.92,98.41,1180.92,New
+708,62,Male,19,43.85,Month-to-Month,Fiber Optic,833.15,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Low,526.2,43.85,526.2,Developing
+709,24,Male,16,43.43,Two-Year,DSL,694.88,Yes,No,0,Expected Range,Expected Range,Under 25,13-24 Months,Low,521.16,0.0,0.0,Developing
+710,61,Female,35,54.14,Month-to-Month,No Internet,1894.9,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,Moderate,649.6800000000001,54.14,649.6800000000001,Established
+711,47,Male,47,62.5,One-Year,Fiber Optic,2937.5,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,Moderate,750.0,0.0,0.0,Established
+712,44,Female,0,66.76,Two-Year,DSL,0.0,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,801.1200000000001,66.76,801.1200000000001,New
+713,39,Male,22,91.17,Month-to-Month,Fiber Optic,2005.74,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,1094.04,91.17,1094.04,Developing
+714,48,Female,1,35.1,Month-to-Month,DSL,35.1,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,421.20000000000005,35.1,421.20000000000005,New
+715,44,Male,15,33.12,Month-to-Month,No Internet,496.7999999999999,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,397.43999999999994,33.12,397.43999999999994,Developing
+716,56,Male,6,65.27,One-Year,No Internet,391.62,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Moderate,783.24,65.27,783.24,New
+717,46,Female,7,92.74,One-Year,No Internet,649.18,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,1112.8799999999999,92.74,1112.8799999999999,Developing
+718,46,Male,8,47.41,One-Year,Fiber Optic,379.28,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Low,568.92,47.41,568.92,Developing
+719,41,Female,19,87.74,Month-to-Month,Fiber Optic,1667.06,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,1052.8799999999999,87.74,1052.8799999999999,Developing
+720,44,Male,8,53.38,Month-to-Month,No Internet,427.04,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Moderate,640.5600000000001,53.38,640.5600000000001,Developing
+721,48,Male,26,109.75,Month-to-Month,DSL,2853.5,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1317.0,109.75,1317.0,Established
+722,27,Female,10,110.61,Month-to-Month,Fiber Optic,1106.1,Yes,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Premium,1327.32,110.61,1327.32,Developing
+723,31,Male,1,56.76,One-Year,Fiber Optic,56.76,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,681.12,56.76,681.12,New
+724,52,Female,30,50.7,Two-Year,DSL,1521.0,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Moderate,608.4000000000001,50.7,608.4000000000001,Established
+725,46,Female,6,67.02,One-Year,Fiber Optic,402.12,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,804.24,67.02,804.24,New
+726,43,Female,11,51.65,Month-to-Month,No Internet,568.15,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Moderate,619.8,51.65,619.8,Developing
+727,45,Female,23,90.51,Two-Year,No Internet,2081.73,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,1086.1200000000001,90.51,1086.1200000000001,Developing
+728,48,Male,8,104.35,One-Year,DSL,834.8,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Premium,1252.1999999999998,104.35,1252.1999999999998,Developing
+729,39,Male,1,90.58,Two-Year,DSL,90.58,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1086.96,90.58,1086.96,New
+730,37,Male,9,104.19,One-Year,DSL,937.71,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Premium,1250.28,104.19,1250.28,Developing
+731,46,Female,57,65.73,Month-to-Month,No Internet,3746.61,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Moderate,788.76,65.73,788.76,Loyal
+732,35,Female,20,44.07,Month-to-Month,DSL,881.4,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,528.84,44.07,528.84,Developing
+733,49,Male,22,96.42,One-Year,No Internet,2121.24,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,1157.04,96.42,1157.04,Developing
+734,27,Female,20,62.44,Month-to-Month,DSL,1248.8,Yes,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Moderate,749.28,62.44,749.28,Developing
+735,55,Male,4,90.41,Month-to-Month,Fiber Optic,361.64,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,High,1084.92,90.41,1084.92,New
+736,49,Female,10,54.36,One-Year,Fiber Optic,543.6,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,652.3199999999999,54.36,652.3199999999999,Developing
+737,47,Male,27,37.31,One-Year,No Internet,1007.37,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,447.72,37.31,447.72,Established
+738,54,Female,2,119.33,One-Year,DSL,238.66,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1431.96,119.33,1431.96,New
+739,61,Female,6,44.06,Month-to-Month,Fiber Optic,264.36,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Low,528.72,44.06,528.72,New
+740,55,Male,6,118.96,Month-to-Month,DSL,713.76,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Premium,1427.52,118.96,1427.52,New
+741,26,Male,11,117.96,One-Year,No Internet,1297.56,No,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Premium,1415.52,117.96,1415.52,Developing
+742,32,Male,78,101.44,Two-Year,No Internet,7912.32,No,Yes,1,Expected Range,Expected Range,25-34,73+ Months,Premium,1217.28,101.44,1217.28,Loyal
+743,38,Male,1,89.35,One-Year,DSL,89.35,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1072.1999999999998,89.35,1072.1999999999998,New
+744,45,Male,14,82.0,Two-Year,No Internet,1148.0,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,984.0,82.0,984.0,Developing
+745,50,Female,3,107.95,One-Year,Fiber Optic,323.85,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1295.4,107.95,1295.4,New
+746,37,Female,70,56.05,One-Year,DSL,3923.5,Yes,No,0,Expected Range,Expected Range,35-44,49-72 Months,Moderate,672.5999999999999,0.0,0.0,Loyal
+747,46,Female,2,72.09,Month-to-Month,Fiber Optic,144.18,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,865.08,72.09,865.08,New
+748,37,Male,10,85.75,One-Year,DSL,857.5,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,1029.0,85.75,1029.0,Developing
+749,38,Female,26,67.01,One-Year,No Internet,1742.2600000000002,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,804.1200000000001,67.01,804.1200000000001,Established
+750,30,Female,24,68.47,One-Year,No Internet,1643.28,No,Yes,1,Expected Range,Expected Range,25-34,13-24 Months,Moderate,821.64,68.47,821.64,Developing
+751,35,Male,10,59.73,Month-to-Month,DSL,597.3,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Moderate,716.76,59.73,716.76,Developing
+752,31,Female,8,80.78,One-Year,Fiber Optic,646.24,Yes,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,High,969.36,80.78,969.36,Developing
+753,35,Female,10,106.55,Month-to-Month,No Internet,1065.5,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Premium,1278.6,106.55,1278.6,Developing
+754,55,Male,6,48.14,One-Year,No Internet,288.84000000000003,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Low,577.6800000000001,48.14,577.6800000000001,New
+755,35,Male,4,114.1,Month-to-Month,Fiber Optic,456.4,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1369.1999999999998,114.1,1369.1999999999998,New
+756,71,Female,13,92.02,Two-Year,No Internet,1196.26,No,Yes,1,Expected Range,Expected Range,65+,13-24 Months,High,1104.24,92.02,1104.24,Developing
+757,49,Male,6,104.09,Month-to-Month,Fiber Optic,624.54,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1249.08,104.09,1249.08,New
+758,46,Female,6,80.06,Month-to-Month,Fiber Optic,480.36,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,960.72,80.06,960.72,New
+759,36,Female,21,100.16,Month-to-Month,No Internet,2103.36,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Premium,1201.92,100.16,1201.92,Developing
+760,52,Female,69,31.46,One-Year,Fiber Optic,2170.74,Yes,No,0,Expected Range,Expected Range,45-54,49-72 Months,Low,377.52,0.0,0.0,Loyal
+761,39,Male,18,103.65,Month-to-Month,Fiber Optic,1865.7,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Premium,1243.8000000000002,103.65,1243.8000000000002,Developing
+762,46,Male,1,33.61,Month-to-Month,Fiber Optic,33.61,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,403.32,33.61,403.32,New
+763,70,Female,1,110.09,One-Year,No Internet,110.09,No,Yes,1,Expected Range,Expected Range,65+,0-6 Months,Premium,1321.08,110.09,1321.08,New
+764,44,Female,60,119.28,Month-to-Month,No Internet,7156.8,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Premium,1431.3600000000001,119.28,1431.3600000000001,Loyal
+765,56,Male,7,56.47,Two-Year,Fiber Optic,395.29,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Moderate,677.64,56.47,677.64,Developing
+766,37,Female,1,48.93,Two-Year,Fiber Optic,48.93,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,587.16,48.93,587.16,New
+767,44,Female,18,98.88,One-Year,Fiber Optic,1779.84,Yes,No,0,Expected Range,Expected Range,35-44,13-24 Months,High,1186.56,0.0,0.0,Developing
+768,62,Male,19,52.77,Month-to-Month,Fiber Optic,1002.63,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Moderate,633.24,52.77,633.24,Developing
+769,38,Male,20,107.9,One-Year,DSL,2158.0,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Premium,1294.8000000000002,107.9,1294.8000000000002,Developing
+770,63,Female,6,39.26,Month-to-Month,No Internet,235.56,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Low,471.12,39.26,471.12,New
+771,52,Male,0,41.34,Month-to-Month,Fiber Optic,0.0,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,496.08000000000004,41.34,496.08000000000004,New
+772,39,Male,67,118.12,Month-to-Month,Fiber Optic,7914.04,Yes,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Premium,1417.44,118.12,1417.44,Loyal
+773,51,Male,5,90.65,Two-Year,DSL,453.25,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1087.8000000000002,90.65,1087.8000000000002,New
+774,54,Male,22,106.22,Month-to-Month,DSL,2336.84,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1274.6399999999999,106.22,1274.6399999999999,Developing
+775,51,Female,24,59.19,One-Year,No Internet,1420.56,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Moderate,710.28,59.19,710.28,Developing
+776,29,Female,18,90.88,One-Year,Fiber Optic,1635.84,Yes,No,0,Expected Range,Expected Range,25-34,13-24 Months,High,1090.56,0.0,0.0,Developing
+777,37,Male,7,83.48,Month-to-Month,DSL,584.36,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,1001.76,83.48,1001.76,Developing
+778,42,Female,6,84.28,Month-to-Month,Fiber Optic,505.68,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1011.36,84.28,1011.36,New
+779,44,Female,18,91.43,Two-Year,Fiber Optic,1645.7400000000002,Yes,No,0,Expected Range,Expected Range,35-44,13-24 Months,High,1097.16,0.0,0.0,Developing
+780,51,Female,40,81.78,One-Year,DSL,3271.2,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,High,981.36,0.0,0.0,Established
+781,46,Male,58,68.62,One-Year,Fiber Optic,3979.96,Yes,No,0,Expected Range,Expected Range,45-54,49-72 Months,Moderate,823.44,0.0,0.0,Loyal
+782,31,Male,2,54.83,Month-to-Month,Fiber Optic,109.66,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,657.96,54.83,657.96,New
+783,48,Female,3,99.17,Month-to-Month,Fiber Optic,297.51,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1190.04,99.17,1190.04,New
+784,51,Female,57,50.36,Month-to-Month,Fiber Optic,2870.52,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Moderate,604.3199999999999,50.36,604.3199999999999,Loyal
+785,50,Male,26,92.31,Month-to-Month,Fiber Optic,2400.06,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,High,1107.72,92.31,1107.72,Established
+786,55,Male,42,51.0,Month-to-Month,No Internet,2142.0,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,Moderate,612.0,51.0,612.0,Established
+787,53,Male,4,86.28,Two-Year,Fiber Optic,345.12,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1035.3600000000001,86.28,1035.3600000000001,New
+788,49,Female,17,97.24,Month-to-Month,DSL,1653.08,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,1166.8799999999999,97.24,1166.8799999999999,Developing
+789,44,Female,24,49.68,Month-to-Month,DSL,1192.32,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,596.16,49.68,596.16,Developing
+790,28,Female,22,35.39,One-Year,Fiber Optic,778.58,Yes,No,0,Expected Range,Expected Range,25-34,13-24 Months,Low,424.68,0.0,0.0,Developing
+791,49,Male,10,41.79,One-Year,No Internet,417.9,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Low,501.48,41.79,501.48,Developing
+792,47,Female,0,84.54,Month-to-Month,DSL,0.0,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1014.48,84.54,1014.48,New
+793,47,Female,17,106.45,One-Year,No Internet,1809.65,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1277.4,106.45,1277.4,Developing
+794,32,Male,5,34.05,Month-to-Month,DSL,170.25,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Low,408.59999999999997,34.05,408.59999999999997,New
+795,34,Female,11,96.07,Month-to-Month,Fiber Optic,1056.77,Yes,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,High,1152.84,96.07,1152.84,Developing
+796,55,Female,63,60.72,Month-to-Month,No Internet,3825.36,No,Yes,1,Expected Range,Expected Range,55-64,49-72 Months,Moderate,728.64,60.72,728.64,Loyal
+797,44,Male,10,73.07,Two-Year,Fiber Optic,730.6999999999999,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Moderate,876.8399999999999,73.07,876.8399999999999,Developing
+798,51,Female,36,113.6,Month-to-Month,Fiber Optic,4089.6,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1363.1999999999998,113.6,1363.1999999999998,Established
+799,45,Male,4,59.88,Month-to-Month,DSL,239.52,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,718.5600000000001,59.88,718.5600000000001,New
+800,45,Female,22,71.88,Month-to-Month,No Internet,1581.36,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Moderate,862.56,71.88,862.56,Developing
+801,54,Female,75,31.23,Two-Year,DSL,2342.25,No,Yes,1,Expected Range,Expected Range,45-54,73+ Months,Low,374.76,31.23,374.76,Loyal
+802,39,Female,2,37.34,Month-to-Month,No Internet,74.68,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,448.08000000000004,37.34,448.08000000000004,New
+803,45,Female,0,53.27,Month-to-Month,DSL,0.0,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,639.24,53.27,639.24,New
+804,40,Male,11,32.51,Month-to-Month,No Internet,357.60999999999996,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,390.12,32.51,390.12,Developing
+805,40,Female,1,86.82,Month-to-Month,Fiber Optic,86.82,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1041.84,86.82,1041.84,New
+806,41,Female,27,68.38,One-Year,No Internet,1846.26,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,820.56,68.38,820.56,Established
+807,47,Male,49,79.33,One-Year,Fiber Optic,3887.17,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,High,951.96,79.33,951.96,Loyal
+808,40,Female,11,45.72,Month-to-Month,No Internet,502.92,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,548.64,45.72,548.64,Developing
+809,57,Female,5,56.63,Month-to-Month,DSL,283.15000000000003,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Moderate,679.5600000000001,56.63,679.5600000000001,New
+810,36,Male,11,89.74,Month-to-Month,DSL,987.14,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,1076.8799999999999,89.74,1076.8799999999999,Developing
+811,43,Female,25,116.88,Month-to-Month,Fiber Optic,2922.0,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1402.56,116.88,1402.56,Established
+812,40,Female,0,34.54,Month-to-Month,DSL,0.0,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,414.48,34.54,414.48,New
+813,59,Male,17,110.13,One-Year,DSL,1872.21,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Premium,1321.56,110.13,1321.56,Developing
+814,46,Female,19,81.92,Two-Year,No Internet,1556.48,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,983.04,81.92,983.04,Developing
+815,55,Male,20,80.75,Two-Year,No Internet,1615.0,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,High,969.0,80.75,969.0,Developing
+816,30,Male,5,75.03,Two-Year,Fiber Optic,375.15,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,High,900.36,75.03,900.36,New
+817,47,Male,25,36.25,One-Year,No Internet,906.25,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,435.0,36.25,435.0,Established
+818,53,Female,1,38.09,One-Year,Fiber Optic,38.09,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Low,457.08000000000004,38.09,457.08000000000004,New
+819,45,Female,4,84.08,Month-to-Month,DSL,336.32,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1008.96,84.08,1008.96,New
+820,55,Male,41,60.69,One-Year,No Internet,2488.29,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,Moderate,728.28,60.69,728.28,Established
+821,39,Male,26,112.55,Month-to-Month,Fiber Optic,2926.2999999999997,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1350.6,112.55,1350.6,Established
+822,59,Female,0,66.59,Month-to-Month,No Internet,0.0,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Moderate,799.08,66.59,799.08,New
+823,67,Male,5,42.9,One-Year,DSL,214.5,Yes,Yes,1,Expected Range,Expected Range,65+,0-6 Months,Low,514.8,42.9,514.8,New
+824,41,Female,4,94.32,Month-to-Month,Fiber Optic,377.28,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1131.84,94.32,1131.84,New
+825,40,Female,6,56.4,Month-to-Month,DSL,338.4,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,676.8,56.4,676.8,New
+826,59,Female,5,77.29,Two-Year,DSL,386.4500000000001,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,High,927.48,77.29,927.48,New
+827,60,Female,1,92.8,Month-to-Month,DSL,92.8,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,High,1113.6,92.8,1113.6,New
+828,39,Male,12,111.02,Month-to-Month,No Internet,1332.24,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Premium,1332.24,111.02,1332.24,Developing
+829,40,Female,26,101.3,Two-Year,No Internet,2633.7999999999997,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1215.6,101.3,1215.6,Established
+830,42,Female,18,90.87,One-Year,No Internet,1635.66,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,1090.44,90.87,1090.44,Developing
+831,31,Female,22,91.17,One-Year,Fiber Optic,2005.74,Yes,No,0,Expected Range,Expected Range,25-34,13-24 Months,High,1094.04,0.0,0.0,Developing
+832,35,Male,1,115.13,Month-to-Month,Fiber Optic,115.13,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1381.56,115.13,1381.56,New
+833,34,Female,60,56.62,Month-to-Month,DSL,3397.2,Yes,Yes,1,Expected Range,Expected Range,25-34,49-72 Months,Moderate,679.4399999999999,56.62,679.4399999999999,Loyal
+834,37,Male,36,30.1,Two-Year,DSL,1083.6,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Low,361.20000000000005,30.1,361.20000000000005,Established
+835,44,Male,32,54.48,One-Year,Fiber Optic,1743.36,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,Moderate,653.76,0.0,0.0,Established
+836,47,Male,34,49.61,One-Year,No Internet,1686.74,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,595.3199999999999,49.61,595.3199999999999,Established
+837,60,Female,53,89.57,Month-to-Month,Fiber Optic,4747.21,Yes,Yes,1,Expected Range,Expected Range,55-64,49-72 Months,High,1074.84,89.57,1074.84,Loyal
+838,35,Female,15,87.03,Month-to-Month,DSL,1305.45,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,1044.3600000000001,87.03,1044.3600000000001,Developing
+839,54,Female,4,83.41,Two-Year,DSL,333.64,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1000.92,83.41,1000.92,New
+840,42,Female,19,31.46,Month-to-Month,DSL,597.74,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,377.52,31.46,377.52,Developing
+841,44,Male,27,95.59,One-Year,Fiber Optic,2580.9300000000003,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,High,1147.08,95.59,1147.08,Established
+842,51,Female,26,59.12,Month-to-Month,No Internet,1537.12,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Moderate,709.4399999999999,59.12,709.4399999999999,Established
+843,33,Male,14,89.86,One-Year,Fiber Optic,1258.04,Yes,No,0,Expected Range,Expected Range,25-34,13-24 Months,High,1078.32,0.0,0.0,Developing
+844,48,Female,1,80.09,Two-Year,No Internet,80.09,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,961.08,80.09,961.08,New
+845,46,Female,9,60.85,One-Year,Fiber Optic,547.65,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,730.2,60.85,730.2,Developing
+846,49,Female,50,42.11,Month-to-Month,Fiber Optic,2105.5,Yes,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Low,505.32,42.11,505.32,Loyal
+847,47,Female,17,38.5,One-Year,DSL,654.5,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Low,462.0,38.5,462.0,Developing
+848,69,Male,15,104.84,One-Year,No Internet,1572.6,No,Yes,1,Expected Range,Expected Range,65+,13-24 Months,Premium,1258.08,104.84,1258.08,Developing
+849,38,Male,6,112.66,Month-to-Month,No Internet,675.96,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1351.92,112.66,1351.92,New
+850,39,Female,9,88.48,Two-Year,DSL,796.32,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,1061.76,88.48,1061.76,Developing
+851,38,Male,45,39.31,One-Year,Fiber Optic,1768.95,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Low,471.72,39.31,471.72,Established
+852,39,Male,21,66.18,Two-Year,Fiber Optic,1389.7800000000002,Yes,No,0,Expected Range,Expected Range,35-44,13-24 Months,Moderate,794.1600000000001,0.0,0.0,Developing
+853,38,Female,30,95.6,One-Year,Fiber Optic,2868.0,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,High,1147.1999999999998,0.0,0.0,Established
+854,56,Female,12,100.18,Month-to-Month,No Internet,1202.16,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,Premium,1202.16,100.18,1202.16,Developing
+855,59,Male,19,40.64,Month-to-Month,Fiber Optic,772.16,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Low,487.68,40.64,487.68,Developing
+856,39,Male,5,30.0,Month-to-Month,Fiber Optic,150.0,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,360.0,30.0,360.0,New
+857,36,Female,24,94.09,Two-Year,DSL,2258.16,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,1129.08,94.09,1129.08,Developing
+858,49,Female,11,62.09,One-Year,DSL,682.99,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,745.08,62.09,745.08,Developing
+859,39,Male,11,52.9,One-Year,DSL,581.9,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Moderate,634.8,52.9,634.8,Developing
+860,51,Male,20,31.16,Month-to-Month,DSL,623.2,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Low,373.92,31.16,373.92,Developing
+861,47,Male,55,78.63,Month-to-Month,No Internet,4324.65,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,High,943.56,78.63,943.56,Loyal
+862,29,Male,1,106.6,One-Year,No Internet,106.6,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Premium,1279.1999999999998,106.6,1279.1999999999998,New
+863,60,Male,34,116.19,Month-to-Month,DSL,3950.46,Yes,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,Premium,1394.28,116.19,1394.28,Established
+864,62,Female,6,80.92,Month-to-Month,No Internet,485.52,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,High,971.04,80.92,971.04,New
+865,38,Female,11,76.3,One-Year,DSL,839.3,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,915.5999999999999,76.3,915.5999999999999,Developing
+866,41,Female,0,37.66,Month-to-Month,Fiber Optic,0.0,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,451.91999999999996,37.66,451.91999999999996,New
+867,47,Male,7,79.4,Month-to-Month,DSL,555.8000000000001,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,952.8000000000001,79.4,952.8000000000001,Developing
+868,48,Female,13,64.2,Month-to-Month,Fiber Optic,834.6,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Moderate,770.4000000000001,64.2,770.4000000000001,Developing
+869,51,Male,1,84.64,Month-to-Month,DSL,84.64,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1015.6800000000001,84.64,1015.6800000000001,New
+870,65,Female,13,64.99,Two-Year,Fiber Optic,844.8699999999999,Yes,No,0,Expected Range,Expected Range,65+,13-24 Months,Moderate,779.8799999999999,0.0,0.0,Developing
+871,43,Female,52,51.63,Month-to-Month,Fiber Optic,2684.76,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Moderate,619.5600000000001,51.63,619.5600000000001,Loyal
+872,37,Male,2,38.55,Month-to-Month,No Internet,77.1,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,462.59999999999997,38.55,462.59999999999997,New
+873,31,Female,28,58.34,Month-to-Month,DSL,1633.52,Yes,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,Moderate,700.08,58.34,700.08,Established
+874,37,Male,10,38.7,One-Year,DSL,387.0,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,464.40000000000003,38.7,464.40000000000003,Developing
+875,44,Female,21,45.92,Month-to-Month,DSL,964.32,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,551.04,45.92,551.04,Developing
+876,62,Male,6,118.86,One-Year,Fiber Optic,713.16,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Premium,1426.32,118.86,1426.32,New
+877,39,Male,3,69.97,Month-to-Month,DSL,209.91,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,839.64,69.97,839.64,New
+878,47,Female,3,77.87,Month-to-Month,No Internet,233.61,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,934.44,77.87,934.44,New
+879,44,Male,1,108.63,Month-to-Month,Fiber Optic,108.63,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1303.56,108.63,1303.56,New
+880,56,Female,4,119.6,Two-Year,Fiber Optic,478.4,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Premium,1435.1999999999998,119.6,1435.1999999999998,New
+881,70,Male,21,82.44,Two-Year,Fiber Optic,1731.24,No,Yes,1,Expected Range,Expected Range,65+,13-24 Months,High,989.28,82.44,989.28,Developing
+882,39,Female,42,103.12,Month-to-Month,DSL,4331.04,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Premium,1237.44,103.12,1237.44,Established
+883,40,Female,33,59.42,One-Year,DSL,1960.86,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,Moderate,713.04,0.0,0.0,Established
+884,55,Female,23,57.52,Two-Year,Fiber Optic,1322.96,Yes,No,0,Expected Range,Expected Range,55-64,13-24 Months,Moderate,690.24,0.0,0.0,Developing
+885,51,Male,2,66.24,Month-to-Month,Fiber Optic,132.48,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,794.8799999999999,66.24,794.8799999999999,New
+886,63,Male,6,90.53,Two-Year,DSL,543.1800000000001,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,High,1086.3600000000001,90.53,1086.3600000000001,New
+887,50,Male,7,91.4,Month-to-Month,DSL,639.8000000000001,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,1096.8000000000002,91.4,1096.8000000000002,Developing
+888,41,Male,5,58.37,Two-Year,No Internet,291.84999999999997,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,700.4399999999999,58.37,700.4399999999999,New
+889,50,Female,14,41.99,One-Year,DSL,587.86,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,Low,503.88,0.0,0.0,Developing
+890,56,Female,15,86.92,Two-Year,No Internet,1303.8,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,High,1043.04,86.92,1043.04,Developing
+891,53,Female,8,41.55,One-Year,No Internet,332.4,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Low,498.59999999999997,41.55,498.59999999999997,Developing
+892,50,Female,8,82.06,Month-to-Month,DSL,656.48,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,984.72,82.06,984.72,Developing
+893,55,Female,35,92.41,Two-Year,DSL,3234.35,Yes,No,0,Expected Range,Expected Range,55-64,25-48 Months,High,1108.92,0.0,0.0,Established
+894,56,Female,31,93.06,Month-to-Month,DSL,2884.86,Yes,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,High,1116.72,93.06,1116.72,Established
+895,58,Male,7,97.81,Month-to-Month,Fiber Optic,684.6700000000001,Yes,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,High,1173.72,97.81,1173.72,Developing
+896,51,Female,49,108.56,One-Year,Fiber Optic,5319.4400000000005,Yes,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,Premium,1302.72,108.56,1302.72,Loyal
+897,43,Female,61,75.0,One-Year,No Internet,4575.0,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Moderate,900.0,75.0,900.0,Loyal
+898,46,Female,7,95.72,Two-Year,No Internet,670.04,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,1148.6399999999999,95.72,1148.6399999999999,Developing
+899,57,Male,8,85.73,Month-to-Month,Fiber Optic,685.84,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,High,1028.76,85.73,1028.76,Developing
+900,36,Male,14,46.8,One-Year,DSL,655.1999999999999,Yes,No,0,Expected Range,Expected Range,35-44,13-24 Months,Low,561.5999999999999,0.0,0.0,Developing
+901,48,Male,56,32.31,One-Year,DSL,1809.36,Yes,No,0,Expected Range,Expected Range,45-54,49-72 Months,Low,387.72,0.0,0.0,Loyal
+902,41,Female,41,55.61,Month-to-Month,No Internet,2280.01,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,667.3199999999999,55.61,667.3199999999999,Established
+903,45,Female,2,69.87,Month-to-Month,DSL,139.74,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,838.44,69.87,838.44,New
+904,57,Male,9,85.54,Month-to-Month,DSL,769.86,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,High,1026.48,85.54,1026.48,Developing
+905,46,Female,16,106.5,Month-to-Month,No Internet,1704.0,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1278.0,106.5,1278.0,Developing
+906,45,Male,13,47.66,Two-Year,Fiber Optic,619.5799999999999,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,Low,571.92,0.0,0.0,Developing
+907,31,Male,4,41.3,One-Year,No Internet,165.2,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Low,495.59999999999997,41.3,495.59999999999997,New
+908,52,Male,39,116.71,One-Year,Fiber Optic,4551.69,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Premium,1400.52,116.71,1400.52,Established
+909,51,Female,22,39.72,Two-Year,DSL,873.8399999999999,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Low,476.64,39.72,476.64,Developing
+910,66,Female,36,73.06,Month-to-Month,No Internet,2630.16,No,Yes,1,Expected Range,Expected Range,65+,25-48 Months,Moderate,876.72,73.06,876.72,Established
+911,41,Male,39,82.7,Two-Year,DSL,3225.3,Yes,No,0,Expected Range,Expected Range,35-44,25-48 Months,High,992.4000000000001,0.0,0.0,Established
+912,47,Female,27,78.72,Month-to-Month,Fiber Optic,2125.44,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,High,944.64,78.72,944.64,Established
+913,47,Male,11,37.74,Two-Year,Fiber Optic,415.14,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Low,452.88,37.74,452.88,Developing
+914,60,Female,18,35.13,Month-to-Month,DSL,632.34,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Low,421.56000000000006,35.13,421.56000000000006,Developing
+915,44,Female,3,39.49,Two-Year,Fiber Optic,118.47,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,473.88,39.49,473.88,New
+916,47,Female,22,82.7,Month-to-Month,DSL,1819.4,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,992.4000000000001,82.7,992.4000000000001,Developing
+917,51,Male,3,78.99,Month-to-Month,Fiber Optic,236.96999999999997,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,947.8799999999999,78.99,947.8799999999999,New
+918,46,Female,23,51.04,One-Year,Fiber Optic,1173.92,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,Moderate,612.48,0.0,0.0,Developing
+919,40,Female,5,87.4,Month-to-Month,No Internet,437.0,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1048.8000000000002,87.4,1048.8000000000002,New
+920,46,Male,2,103.81,One-Year,No Internet,207.62,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1245.72,103.81,1245.72,New
+921,55,Female,3,33.74,Month-to-Month,DSL,101.22,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Low,404.88,33.74,404.88,New
+922,34,Male,0,74.83,One-Year,Fiber Optic,0.0,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,897.96,74.83,897.96,New
+923,46,Female,25,92.04,Month-to-Month,Fiber Optic,2301.0,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,High,1104.48,92.04,1104.48,Established
+924,37,Male,26,52.71,Month-to-Month,DSL,1370.46,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,632.52,52.71,632.52,Established
+925,56,Female,14,57.7,Month-to-Month,No Internet,807.8000000000001,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Moderate,692.4000000000001,57.7,692.4000000000001,Developing
+926,29,Female,3,85.23,Month-to-Month,No Internet,255.69,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,High,1022.76,85.23,1022.76,New
+927,39,Male,1,110.81,Month-to-Month,DSL,110.81,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1329.72,110.81,1329.72,New
+928,48,Male,0,102.89,Month-to-Month,Fiber Optic,0.0,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1234.68,102.89,1234.68,New
+929,60,Male,3,82.48,Month-to-Month,DSL,247.44,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,High,989.76,82.48,989.76,New
+930,44,Male,44,95.72,Month-to-Month,Fiber Optic,4211.68,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,High,1148.6399999999999,95.72,1148.6399999999999,Established
+931,39,Male,5,62.83,One-Year,DSL,314.15,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,753.96,62.83,753.96,New
+932,63,Female,8,87.69,Two-Year,No Internet,701.52,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,High,1052.28,87.69,1052.28,Developing
+933,30,Male,2,71.96,Month-to-Month,No Internet,143.92,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,863.52,71.96,863.52,New
+934,23,Male,5,47.09,One-Year,Fiber Optic,235.45,Yes,Yes,1,Expected Range,Expected Range,Under 25,0-6 Months,Low,565.08,47.09,565.08,New
+935,49,Female,14,93.16,One-Year,Fiber Optic,1304.24,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,High,1117.92,0.0,0.0,Developing
+936,39,Male,18,80.08,Month-to-Month,No Internet,1441.44,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,High,960.96,80.08,960.96,Developing
+937,34,Female,5,62.28,One-Year,Fiber Optic,311.4,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,747.36,62.28,747.36,New
+938,52,Female,1,112.02,Month-to-Month,DSL,112.02,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1344.24,112.02,1344.24,New
+939,47,Female,9,31.88,One-Year,Fiber Optic,286.92,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Low,382.56,31.88,382.56,Developing
+940,39,Female,5,58.42,Month-to-Month,No Internet,292.1,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Moderate,701.04,58.42,701.04,New
+941,32,Female,4,35.12,One-Year,Fiber Optic,140.48,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Low,421.43999999999994,35.12,421.43999999999994,New
+942,53,Male,64,98.99,One-Year,Fiber Optic,6335.36,No,Yes,1,Expected Range,Expected Range,45-54,49-72 Months,High,1187.8799999999999,98.99,1187.8799999999999,Loyal
+943,51,Male,19,93.19,Month-to-Month,No Internet,1770.61,No,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,High,1118.28,93.19,1118.28,Developing
+944,44,Male,16,59.82,Month-to-Month,No Internet,957.12,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,717.84,59.82,717.84,Developing
+945,63,Female,10,90.81,Two-Year,No Internet,908.1,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,High,1089.72,90.81,1089.72,Developing
+946,34,Male,11,65.63,Month-to-Month,DSL,721.93,No,Yes,1,Expected Range,Expected Range,25-34,7-12 Months,Moderate,787.56,65.63,787.56,Developing
+947,29,Female,15,98.06,One-Year,Fiber Optic,1470.9,Yes,No,0,Expected Range,Expected Range,25-34,13-24 Months,High,1176.72,0.0,0.0,Developing
+948,38,Female,23,70.88,Two-Year,No Internet,1630.2399999999998,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,850.56,70.88,850.56,Developing
+949,44,Female,24,67.11,One-Year,No Internet,1610.64,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,805.3199999999999,67.11,805.3199999999999,Developing
+950,47,Female,3,114.13,One-Year,Fiber Optic,342.39,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Premium,1369.56,114.13,1369.56,New
+951,42,Male,13,52.58,One-Year,DSL,683.54,Yes,No,0,Expected Range,Expected Range,35-44,13-24 Months,Moderate,630.96,0.0,0.0,Developing
+952,48,Female,10,40.84,Two-Year,No Internet,408.4,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Low,490.08000000000004,40.84,490.08000000000004,Developing
+953,32,Female,40,82.61,Month-to-Month,No Internet,3304.4,No,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,High,991.3199999999999,82.61,991.3199999999999,Established
+954,59,Male,19,117.24,Month-to-Month,DSL,2227.56,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Premium,1406.8799999999999,117.24,1406.8799999999999,Developing
+955,44,Male,15,64.01,Month-to-Month,Fiber Optic,960.15,No,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Moderate,768.1200000000001,64.01,768.1200000000001,Developing
+956,56,Female,2,35.58,Two-Year,DSL,71.16,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Low,426.96,35.58,426.96,New
+957,48,Female,18,60.54,One-Year,Fiber Optic,1089.72,Yes,No,0,Expected Range,Expected Range,45-54,13-24 Months,Moderate,726.48,0.0,0.0,Developing
+958,49,Female,2,75.53,Month-to-Month,DSL,151.06,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,906.36,75.53,906.36,New
+959,50,Female,8,44.57,Two-Year,Fiber Optic,356.56,Yes,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Low,534.84,44.57,534.84,Developing
+960,49,Female,3,89.23,Month-to-Month,Fiber Optic,267.69,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1070.76,89.23,1070.76,New
+961,51,Female,23,119.8,Month-to-Month,Fiber Optic,2755.4,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1437.6,119.8,1437.6,Developing
+962,58,Male,4,70.66,One-Year,Fiber Optic,282.64,Yes,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Moderate,847.92,70.66,847.92,New
+963,46,Male,9,61.93,Month-to-Month,No Internet,557.37,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Moderate,743.16,61.93,743.16,Developing
+964,52,Male,45,66.06,Two-Year,DSL,2972.7000000000003,Yes,No,0,Expected Range,Expected Range,45-54,25-48 Months,Moderate,792.72,0.0,0.0,Established
+965,44,Female,4,40.36,Month-to-Month,DSL,161.44,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Low,484.32,40.36,484.32,New
+966,59,Female,14,109.49,Two-Year,No Internet,1532.86,No,Yes,1,Expected Range,Expected Range,55-64,13-24 Months,Premium,1313.8799999999999,109.49,1313.8799999999999,Developing
+967,38,Female,10,67.33,One-Year,DSL,673.3,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Moderate,807.96,67.33,807.96,Developing
+968,63,Male,0,64.85,Month-to-Month,No Internet,0.0,No,Yes,1,Expected Range,Expected Range,55-64,0-6 Months,Moderate,778.1999999999999,64.85,778.1999999999999,New
+969,44,Female,31,89.37,Two-Year,No Internet,2770.4700000000003,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,High,1072.44,89.37,1072.44,Established
+970,30,Female,1,69.78,One-Year,Fiber Optic,69.78,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Moderate,837.36,69.78,837.36,New
+971,46,Female,12,88.34,Month-to-Month,No Internet,1060.08,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,High,1060.08,88.34,1060.08,Developing
+972,38,Female,16,35.53,Month-to-Month,DSL,568.48,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Low,426.36,35.53,426.36,Developing
+973,53,Male,19,103.24,Two-Year,Fiber Optic,1961.56,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1238.8799999999999,103.24,1238.8799999999999,Developing
+974,38,Female,23,114.65,Month-to-Month,Fiber Optic,2636.9500000000003,Yes,Yes,1,Expected Range,Expected Range,35-44,13-24 Months,Premium,1375.8000000000002,114.65,1375.8000000000002,Developing
+975,40,Male,5,88.39,Month-to-Month,Fiber Optic,441.95,Yes,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,High,1060.68,88.39,1060.68,New
+976,26,Male,0,115.91,Month-to-Month,No Internet,0.0,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,Premium,1390.92,115.91,1390.92,New
+977,40,Female,25,43.63,Month-to-Month,DSL,1090.75,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Low,523.5600000000001,43.63,523.5600000000001,Established
+978,20,Female,15,72.97,One-Year,Fiber Optic,1094.55,Yes,No,0,Expected Range,Expected Range,Under 25,13-24 Months,Moderate,875.64,0.0,0.0,Developing
+979,29,Female,36,84.16,Month-to-Month,Fiber Optic,3029.76,Yes,Yes,1,Expected Range,Expected Range,25-34,25-48 Months,High,1009.92,84.16,1009.92,Established
+980,52,Female,34,82.36,Month-to-Month,Fiber Optic,2800.24,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,High,988.3199999999999,82.36,988.3199999999999,Established
+981,52,Female,37,66.13,Month-to-Month,DSL,2446.81,Yes,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Moderate,793.56,66.13,793.56,Established
+982,49,Female,13,60.43,Month-to-Month,Fiber Optic,785.59,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Moderate,725.16,60.43,725.16,Developing
+983,35,Female,8,41.41,Two-Year,No Internet,331.28,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,496.91999999999996,41.41,496.91999999999996,Developing
+984,44,Male,31,65.26,Month-to-Month,DSL,2023.06,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,783.1200000000001,65.26,783.1200000000001,Established
+985,44,Male,12,44.64,Two-Year,No Internet,535.6800000000001,No,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,Low,535.6800000000001,44.64,535.6800000000001,Developing
+986,33,Male,4,96.09,Month-to-Month,Fiber Optic,384.36,Yes,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,High,1153.08,96.09,1153.08,New
+987,60,Male,38,48.79,Month-to-Month,No Internet,1854.02,No,Yes,1,Expected Range,Expected Range,55-64,25-48 Months,Low,585.48,48.79,585.48,Established
+988,53,Male,42,35.27,Two-Year,No Internet,1481.34,No,Yes,1,Expected Range,Expected Range,45-54,25-48 Months,Low,423.24,35.27,423.24,Established
+989,42,Male,12,79.71,Month-to-Month,DSL,956.52,Yes,Yes,1,Expected Range,Expected Range,35-44,7-12 Months,High,956.52,79.71,956.52,Developing
+990,45,Male,1,83.57,One-Year,Fiber Optic,83.57,Yes,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,High,1002.8399999999999,83.57,1002.8399999999999,New
+991,47,Female,9,108.47,Two-Year,No Internet,976.23,No,Yes,1,Expected Range,Expected Range,45-54,7-12 Months,Premium,1301.6399999999999,108.47,1301.6399999999999,Developing
+992,24,Male,32,81.93,Month-to-Month,Fiber Optic,2621.76,Yes,Yes,1,Expected Range,Expected Range,Under 25,25-48 Months,High,983.1600000000001,81.93,983.1600000000001,Established
+993,42,Female,46,61.09,Month-to-Month,No Internet,2810.1400000000003,No,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Moderate,733.08,61.09,733.08,Established
+994,38,Male,4,102.27,One-Year,Fiber Optic,409.08,No,Yes,1,Expected Range,Expected Range,35-44,0-6 Months,Premium,1227.24,102.27,1227.24,New
+995,34,Female,1,78.63,Month-to-Month,DSL,78.63,No,Yes,1,Expected Range,Expected Range,25-34,0-6 Months,High,943.56,78.63,943.56,New
+996,42,Male,41,37.14,Month-to-Month,Fiber Optic,1522.74,Yes,Yes,1,Expected Range,Expected Range,35-44,25-48 Months,Low,445.68,37.14,445.68,Established
+997,62,Male,9,80.93,Month-to-Month,No Internet,728.3700000000001,No,Yes,1,Expected Range,Expected Range,55-64,7-12 Months,High,971.1600000000001,80.93,971.1600000000001,Developing
+998,51,Female,15,111.72,Month-to-Month,Fiber Optic,1675.8,Yes,Yes,1,Expected Range,Expected Range,45-54,13-24 Months,Premium,1340.6399999999999,111.72,1340.6399999999999,Developing
+999,39,Male,68,65.67,One-Year,No Internet,4465.56,No,Yes,1,Expected Range,Expected Range,35-44,49-72 Months,Moderate,788.04,65.67,788.04,Loyal
+1000,50,Male,1,56.67,Month-to-Month,No Internet,56.67,No,Yes,1,Expected Range,Expected Range,45-54,0-6 Months,Moderate,680.04,56.67,680.04,New
