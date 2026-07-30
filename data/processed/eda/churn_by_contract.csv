@@ -1,0 +1,4 @@
+ContractType,Customers,ChurnedCustomers,AverageMonthlyCharges,TotalMonthlyRevenue,ChurnRate,ChurnedMonthlyRevenue
+Month-to-Month,511,511,75.9091976516634,38789.6,100.0,38789.6
+Two-Year,200,154,71.33449999999999,14266.9,77.0,11359.04
+One-Year,289,218,73.8228027681661,21334.79,75.4325259515571,16924.72
