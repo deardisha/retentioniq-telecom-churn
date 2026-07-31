@@ -6,6 +6,10 @@ RetentionIQ is an end-to-end customer retention analytics project that identifie
 
 ![RetentionIQ Dashboard](reports/figures/retentioniq_dashboard.png)
 
+### Live Dashboard
+
+[View the interactive RetentionIQ dashboard on Tableau Public](https://public.tableau.com/views/RetentionIQ_Dashboard_twbx/RetentionIQDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ## Business Problem
 
 Telecom retention teams have limited budgets and cannot contact every customer.
